@@ -1,0 +1,11 @@
+#print("*************") 
+#print("*  WELCOME! *")
+#print("*************")
+#print("Python is fun!")
+
+print("Hello, my name is Kultur!")
+print("I am learning Python")
+print("I am from Nigeria")
+print("I want to become a software developer")
+print("I also want to become a music producer")
+print("One day, I will build amazing software.")
