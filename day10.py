@@ -4,3 +4,8 @@ for row in range(3):
         print("#", end=" ")
 
     print()
+
+
+# print("A", end="")
+# print("B", end="")
+# print("C")
