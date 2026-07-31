@@ -16,6 +16,22 @@
 # print(difference)
 
 
-def add(a, b):
-    answer = a + b
-    return answer
+# def add(a, b):
+#     answer = a + b
+#     return answer
+
+# def Message(namewe ):
+#     return "light"
+    
+# message = Message()
+     
+# print(message.upper())
+
+def greet():
+    print("Hello!")
+
+def conversation():
+    greet()
+    print("How are you?")
+
+conversation()
