@@ -1,6 +1,6 @@
-def substract(a, b):
-#     return a - b
+# def introduce(name, age):
+# #     print(name)
+# #     print(age)
 
-# difference = substract(50, 18)
-
-# print(difference)
+# introduce(age=20, name="Kultur")
+# introduce(name="Kultur", age=20)

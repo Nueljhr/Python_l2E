@@ -1,3 +1,5 @@
+# POSITIONAL ARGUMENTS
+
 
 def greet(name="Friend"):
     print("Hello", name)
