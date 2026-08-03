@@ -871,3 +871,281 @@ Current Understanding
 ⬜ Exceptions
 
 ---
+# 🚀 Project Gallery
+
+As I continue learning Python, every project will be added here.
+
+Each project represents another milestone in my journey toward becoming a software developer.
+
+| Project | Description | Status |
+|----------|-------------|:------:|
+| Hello World | My very first Python program | ✅ |
+| About Me | Practiced printing multiple lines | ✅ |
+| Calculator | Basic arithmetic operations | ✅ |
+| Shop Receipt | Variables and calculations | ✅ |
+| Grade Checker | Conditional statements | ✅ |
+| Club Eligibility Checker | Decision making with `if` statements | ✅ |
+| Loop Challenges | Repetition using loops | ✅ |
+| Function Practice | Reusable code | 🚧 |
+| Number Guessing Game | Random numbers & loops | ⏳ |
+| Password Generator | Random module | ⏳ |
+| Contact Book | Dictionaries | ⏳ |
+| To-Do CLI App | Lists & file handling | ⏳ |
+| Expense Tracker | File handling | ⏳ |
+| Banking System | Functions & OOP | ⏳ |
+| Weather App | APIs | ⏳ |
+
+---
+
+# 🛣️ Learning Roadmap
+
+```
+✔ Python Basics
+        │
+        ▼
+✔ Variables
+        │
+        ▼
+✔ Data Types
+        │
+        ▼
+✔ User Input
+        │
+        ▼
+✔ Strings
+        │
+        ▼
+✔ Conditions
+        │
+        ▼
+✔ Loops
+        │
+        ▼
+🚧 Functions
+        │
+        ▼
+⬜ Lists
+        │
+        ▼
+⬜ Tuples
+        │
+        ▼
+⬜ Dictionaries
+        │
+        ▼
+⬜ Sets
+        │
+        ▼
+⬜ File Handling
+        │
+        ▼
+⬜ Exceptions
+        │
+        ▼
+⬜ Modules
+        │
+        ▼
+⬜ Object-Oriented Programming
+        │
+        ▼
+⬜ APIs
+        │
+        ▼
+⬜ Automation
+        │
+        ▼
+⬜ Portfolio Projects
+```
+
+---
+
+# 🏅 Achievement Board
+
+Every major milestone in this journey will be recorded here.
+
+## Programming Milestones
+
+- 🏆 Wrote my first Python program
+- 🏆 Learned variables
+- 🏆 Learned user input
+- 🏆 Performed type conversion
+- 🏆 Built my first calculator
+- 🏆 Learned conditional logic
+- 🏆 Learned loops
+- 🏆 Started writing reusable functions
+
+### Upcoming
+
+- ⬜ Complete Python Fundamentals
+- ⬜ Build 10 Python Projects
+- ⬜ Build First CLI Application
+- ⬜ Learn Object-Oriented Programming
+- ⬜ Build First API Project
+- ⬜ Deploy First Python Project
+
+---
+
+# 📊 Repository Growth
+
+```
+Current Stage
+
+🌱 Beginner Developer
+
+██████████████░░░░░░░░░░
+
+Knowledge
+
+█████████████░░░░░░░░░░░
+
+Projects
+
+████░░░░░░░░░░░░░░░░░░░░
+
+Confidence
+
+███████████████░░░░░░░░░
+
+Consistency
+
+█████████████████████░░░
+```
+
+---
+
+# 🎯 What's Coming Next
+
+As I continue this journey, I'll be learning:
+
+## Python Fundamentals
+
+- Lists
+- Tuples
+- Dictionaries
+- Sets
+
+## Intermediate Python
+
+- File Handling
+- Exception Handling
+- Modules
+- Packages
+
+## Advanced Python
+
+- Object-Oriented Programming
+- Decorators
+- Iterators
+- Generators
+- Context Managers
+
+## Software Development
+
+- APIs
+- JSON
+- HTTP Requests
+- SQLite
+- Testing
+
+## Web Development
+
+- Flask
+- Django
+
+## Automation
+
+- Web Scraping
+- Task Automation
+- Scripts
+
+## Artificial Intelligence
+
+- NumPy
+- Pandas
+- Data Visualization
+- Machine Learning Fundamentals
+
+---
+
+# 📖 Resources
+
+Some of the resources supporting my learning journey include:
+
+- Official Python Documentation
+- Learn2Earn Curriculum
+- VS Code
+- Git & GitHub
+- Daily Practice Challenges
+- Personal Notes & Experiments
+
+More resources will be added as I progress.
+
+---
+
+# 💼 Why This Repository Exists
+
+This repository isn't just about Python.
+
+It's about documenting the process of becoming a software developer.
+
+Every lesson completed...
+
+Every bug fixed...
+
+Every project finished...
+
+Every concept mastered...
+
+is another step toward that goal.
+
+Rather than hiding the learning process, I'm choosing to document it publicly.
+
+---
+
+# 📈 Future Repository Goals
+
+- Document every lesson
+- Push code consistently
+- Build increasingly complex projects
+- Keep improving this README
+- Track my growth over time
+- Maintain clean Git history
+- Build a portfolio I'm proud of
+
+---
+
+# 🤝 Let's Connect
+
+I'm always learning, improving, and building.
+
+If you're also on a software development journey, feel free to explore this repository, follow my progress, or share ideas.
+
+Learning is better together.
+
+---
+
+# ❤️ Acknowledgements
+
+A huge thank you to everyone who contributes to open-source education and makes learning programming more accessible.
+
+Special appreciation to the Learn2Earn program for providing a structured path toward becoming a software developer.
+
+---
+
+# 📌 Repository Motto
+
+> **Learn. Practice. Break. Debug. Understand. Repeat.**
+
+---
+
+<div align="center">
+
+## ⭐ Thanks for visiting!
+
+If you enjoyed following my journey, consider checking back as I continue learning and building.
+
+**This repository grows one commit at a time.**
+
+🚀 Happy Coding!
+
+</div>
