@@ -340,3 +340,534 @@ Confidence
 ```
 
 ---
+# 📅 Learning Journal
+
+> *"Small progress each day eventually leads to remarkable results."*
+
+This journal records my learning journey as I progress through Python.
+
+Instead of simply listing topics, I document what I learned, the exercises I completed, the challenges I encountered, and the lessons I took away from each study session.
+
+Every entry represents real progress.
+
+---
+
+# 🗓️ Learning Timeline
+
+```text
+Journey Started
+      │
+      ├────────► Python Installation
+      │
+      ├────────► Hello World
+      │
+      ├────────► Variables
+      │
+      ├────────► Data Types
+      │
+      ├────────► User Input
+      │
+      ├────────► Type Conversion
+      │
+      ├────────► Operators
+      │
+      ├────────► Strings
+      │
+      ├────────► String Methods
+      │
+      ├────────► Conditions
+      │
+      ├────────► Loops
+      │
+      └────────► Functions 🚧
+```
+
+---
+
+# 📝 Daily Learning Journal
+
+---
+
+## ✅ Day 1 — Introduction to Python
+
+### Topics Covered
+
+- Installing Python
+- Running Python programs
+- Using VS Code
+- Writing the first Python program
+- print()
+
+### Exercises
+
+- Hello World
+- About Me
+
+### Biggest Lesson
+
+Computers only understand instructions.
+
+Programming is the process of giving those instructions clearly.
+
+---
+
+## ✅ Day 2 — Variables & Data Types
+
+### Topics Covered
+
+- Variables
+- Strings
+- Integers
+- Floats
+- Booleans
+
+### Exercises
+
+- variables.py
+- types.py
+
+### What Clicked
+
+Variables are simply labels pointing to values stored in memory.
+
+---
+
+## ✅ Day 3 — User Input & Type Conversion
+
+### Topics Covered
+
+- input()
+- int()
+- float()
+
+### Exercises
+
+- shop.py
+- conversion.py
+- calculator.py
+
+### Biggest Lesson
+
+`input()` always returns a string.
+
+Whenever mathematical operations are needed, the input must first be converted to the appropriate data type.
+
+---
+
+## ✅ Day 4 — Operators
+
+### Topics Covered
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Exponents
+- Modulus
+
+### Exercises
+
+Basic Calculator
+
+Bonus Arithmetic Challenge
+
+### What I Learned
+
+Python can perform mathematical operations just like a calculator.
+
+---
+
+## ✅ Day 5 — Strings
+
+### Topics Covered
+
+- String indexing
+- Negative indexing
+- String slicing
+- Step slicing
+
+### Exercises
+
+- slicing.py
+- step_slicing.py
+
+### Biggest Discovery
+
+Strings are sequences.
+
+Every character has an index.
+
+---
+
+## ✅ Day 6 — String Methods
+
+### Topics Covered
+
+- upper()
+- lower()
+- replace()
+
+### Exercises
+
+String Manipulation Practice
+
+### Biggest Lesson
+
+String methods don't permanently change the original string unless their returned value is assigned to a variable.
+
+---
+
+## ✅ Day 7 — Conditional Statements
+
+### Topics Covered
+
+- if
+- elif
+- else
+- Comparison Operators
+
+### Exercises
+
+- grades.py
+- club.py
+
+### Biggest Lesson
+
+Programs become intelligent when they can make decisions.
+
+---
+
+## ✅ Day 8 — Loops
+
+### Topics Covered
+
+- while
+- for
+- break
+
+### Exercises
+
+Counting Program
+
+Loop Challenges
+
+Pattern Printing
+
+### Biggest Lesson
+
+Loops automate repetitive work.
+
+---
+
+## ✅ Day 9 — Functions
+
+### Topics Covered
+
+- def
+- Parameters
+- Arguments
+- Calling Functions
+
+### Exercises
+
+Greeting Function
+
+Calculator Function
+
+Simple Reusable Programs
+
+### Current Focus
+
+Understanding the difference between `print()` and `return`.
+
+Learning how keyword arguments match by parameter name instead of position.
+
+---
+
+# 📚 Exercise Encyclopedia
+
+This section documents every exercise completed during my Python journey.
+
+Rather than only storing the source code, I also record the purpose of each exercise and the concepts it was designed to reinforce.
+
+---
+
+## 🧪 Hello World
+
+### Objective
+
+Learn how to execute a Python program.
+
+### Concepts
+
+- print()
+
+### Difficulty
+
+⭐☆☆☆☆
+
+---
+
+## 🧪 About Me
+
+### Objective
+
+Practice printing multiple lines of text.
+
+### Concepts
+
+- print()
+
+- Strings
+
+Difficulty
+
+⭐☆☆☆☆
+
+---
+
+## 🧪 Calculator
+
+Objective
+
+Practice arithmetic operators.
+
+Concepts
+
+- Variables
+
+- input()
+
+- int()
+
+- Operators
+
+Difficulty
+
+⭐⭐☆☆☆
+
+---
+
+## 🧪 Shop Receipt
+
+Objective
+
+Practice variables and arithmetic.
+
+Concepts
+
+- Variables
+
+- Numbers
+
+- Addition
+
+Difficulty
+
+⭐⭐☆☆☆
+
+---
+
+## 🧪 Grade Checker
+
+Objective
+
+Practice decision making.
+
+Concepts
+
+- if
+
+- elif
+
+- else
+
+Difficulty
+
+⭐⭐⭐☆☆
+
+---
+
+## 🧪 Club Eligibility
+
+Objective
+
+Use conditions to solve a real-world problem.
+
+Concepts
+
+- Boolean expressions
+
+- Comparison operators
+
+Difficulty
+
+⭐⭐⭐☆☆
+
+---
+
+## 🧪 Loop Challenges
+
+Objective
+
+Understand repetition.
+
+Concepts
+
+- while
+
+- for
+
+- break
+
+Difficulty
+
+⭐⭐⭐☆☆
+
+---
+
+## 🧪 Functions Practice
+
+Objective
+
+Learn code reusability.
+
+Concepts
+
+- def
+
+- Parameters
+
+- Arguments
+
+Difficulty
+
+⭐⭐⭐⭐☆
+
+---
+
+# 🐛 Bug Journal
+
+Every mistake teaches something valuable.
+
+Instead of hiding bugs, I document them here.
+
+---
+
+### 🐛 Bug #001
+
+Problem
+
+Trying to perform arithmetic on user input caused unexpected behavior.
+
+Cause
+
+`input()` returns a string.
+
+Solution
+
+Convert the input using `int()` before performing calculations.
+
+Lesson
+
+Always know the data type you're working with.
+
+---
+
+### 🐛 Bug #002
+
+Problem
+
+A loop kept running forever.
+
+Cause
+
+The loop variable was never updated.
+
+Lesson
+
+A loop only stops when its condition eventually becomes False.
+
+---
+
+### 🐛 Bug #003
+
+Problem
+
+Expected `.replace()` to modify the original string.
+
+Lesson
+
+Strings are immutable.
+
+Methods like `.replace()` return a new string.
+
+---
+
+### 🐛 Bug #004
+
+Problem
+
+Confused `print()` with `return`.
+
+Current Understanding
+
+`print()` displays information.
+
+`return` sends a value back to the code that called the function.
+
+---
+
+# 💡 Biggest Breakthroughs
+
+✔ Understanding that variables store references to values.
+
+✔ Realizing that `input()` always returns a string.
+
+✔ Discovering that strings can be sliced using indexes.
+
+✔ Learning that conditions allow programs to make decisions.
+
+✔ Seeing how loops eliminate repetitive code.
+
+✔ Beginning to write reusable code with functions.
+
+---
+
+# 🧠 Concepts Mastered So Far
+
+✅ Variables
+
+✅ Data Types
+
+✅ Strings
+
+✅ User Input
+
+✅ Type Conversion
+
+✅ Operators
+
+✅ String Indexing
+
+✅ String Slicing
+
+✅ String Methods
+
+✅ Conditional Statements
+
+✅ Loops
+
+🚧 Functions (In Progress)
+
+⬜ Collections
+
+⬜ File Handling
+
+⬜ OOP
+
+⬜ Modules
+
+⬜ Exceptions
+
+---
