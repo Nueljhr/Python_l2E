@@ -14,6 +14,7 @@
 # # Check if a word is a palindrome
 # def is_palindrome(word):
 #     return word == word[::-1]
+# word[start:end:step]  # This is a slicing operation that returns a new string that is a reversed version of the original string.
 
 
 # Example script — calculates the cost of coffee orders
