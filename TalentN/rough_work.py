@@ -59,3 +59,67 @@
 
 # print(calculate_shipping(60))  # Should return 0
 # print(calculate_shipping(40))  # Should return 5.99
+
+# milk_ounces = 16
+# pour_amount = 6
+# remaining = milk_ounces - pour_amount
+# print(remaining)
+
+# cereal_in_box = 10
+# required_scoops = 3
+# print(cereal_in_box >= required_scoops)
+
+# milk_ounces = 12
+# cereal_scoops = 4
+# bowl_capacity = 5
+
+# # Using 'and' to ensure ALL requirements are met
+# ready_to_serve = (milk_ounces >= 8) and (cereal_scoops >= 3) and (bowl_capacity >= cereal_scoops)
+# # ready_to_serve is True because all individual expressions are True
+
+# # Using 'or' to check alternate options
+# can_use_alternate_bowl = (bowl_capacity >= 10) or (cereal_scoops <= 3)
+# # evaluates to False because bowl_capacity is 5 (5 >= 10 is False) and cereal_scoops is 4 (4 <= 3 is False)
+
+# is_milk_fresh = True
+# is_cereal_fresh = False
+# can_serve = is_milk_fresh and is_cereal_fresh
+# print(can_serve)
+
+# print(2 + 3 * 4)
+# print((2 + 3) * 4)
+
+# banana_count = "2"      # text string
+# milk_cups = "1.5"       # text string
+
+# # # Convert the text variables into numeric variables
+# # banana_count = int(banana_count)   # Becomes the integer 2
+# # milk_cups = float(milk_cups)      # Becomes the float 1.5
+
+# # # Perform mathematical addition on the numbers
+# # total = banana_count + milk_cups  # 2 + 1.5 = 3.5
+# # print(total)  # Outputs: 3.5
+# print(banana_count + milk_cups)  # Outputs: 21.5
+
+# print(float("1.5"))
+# Now try:
+# print(int("1.5"))
+
+# ounces = 8.5
+# print("Pouring " + str(ounces) + " ounces of milk.")
+
+# user_input = "banana"  # This is a string input from the user
+
+# # Check if the string consists entirely of digits (0-9)
+# if user_input.isdigit():
+#     banana_count = int(user_input)
+#     print("Conversion successful!")
+# else:
+#     print("Warning: That is not a valid number! Defaulting to 0.")
+#     banana_count = 0
+
+# value1 = "15"
+# value2 = "banana"
+# print(value1.isdigit())
+# print(value2.isdigit())
+

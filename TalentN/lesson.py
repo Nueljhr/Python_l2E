@@ -49,3 +49,13 @@
 # Data types: int, float, str, bool. The specific category of information being stored, which determines what rules apply to it.
 # type() function can be used to check the type of a variable.
 
+# LESSON 8: TYPE CONVERSION AND CASTING
+
+# isdigit()  # Returns True if all characters in the string are digits, otherwise False
+# int() used tp convert a string or float to an integer. It truncates the decimal part.
+# float() used to convert a string or integer to a float. It retains the decimal part.
+# str() used to convert a number to a string.
+# boolean values: True and False. They are used to represent truth values in logical operations.
+
+# LESSON 9: CONTROL FLOW AND CONDITIONAL STATEMENTS
+# if, elif, else statements are used to control the flow of a program based on conditions
