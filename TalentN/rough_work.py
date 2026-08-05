@@ -123,3 +123,41 @@
 # print(value1.isdigit())
 # print(value2.isdigit())
 
+# selected_drink = "Water"
+# # selected_drink = "Green Tea"
+# # selected_drink = f"Coffee"
+# target_temp = 100
+# if selected_drink == "Green Tea":
+#     target_temp = 80
+#     print(f"Target temperature for {selected_drink} is {target_temp}°C")
+#     print(f"{target_temp}°C.")
+# elif selected_drink == "Coffee":
+#     target_temp = 90
+#     print(f"Target temperature for {selected_drink} is {target_temp}°C")
+#     print(f"{target_temp}°C.")
+# else:
+#     print(f"Target temperature for {selected_drink} is {target_temp}°C")
+#     print(f"{target_temp}°C.")
+
+# selected_drink = "Black Tea"
+# target_temp = 100
+# if selected_drink == "Green Tea":
+#     target_temp = 80
+#     print("This line will be skipped!")
+
+# print(target_temp)
+
+
+current_temperature = 18.0  # Current temperature in Celsius
+target_temperature = 22.0   # Desired temperature in Celsius
+occupancy_detected = True   # Boolean indicating if someone is present in the room
+if current_temperature < target_temperature and occupancy_detected == True:
+    furnace_active = True
+    fan_speed = "High"
+elif current_temperature < target_temperature - 5.0: # extreme cold fallback
+    furnace_active = True
+    fan_speed = "Emergency"
+else:
+   furnace_active = False
+   fan_speed = "Off"
+
