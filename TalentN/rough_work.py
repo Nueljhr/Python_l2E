@@ -148,16 +148,75 @@
 # print(target_temp)
 
 
-current_temperature = 18.0  # Current temperature in Celsius
-target_temperature = 22.0   # Desired temperature in Celsius
-occupancy_detected = True   # Boolean indicating if someone is present in the room
-if current_temperature < target_temperature and occupancy_detected == True:
-    furnace_active = True
-    fan_speed = "High"
-elif current_temperature < target_temperature - 5.0: # extreme cold fallback
-    furnace_active = True
-    fan_speed = "Emergency"
-else:
-   furnace_active = False
-   fan_speed = "Off"
+# current_temperature = 18.0  # Current temperature in Celsius
+# target_temperature = 22.0   # Desired temperature in Celsius
+# occupancy_detected = True   # Boolean indicating if someone is present in the room
+# if current_temperature < target_temperature and occupancy_detected == True:
+#     furnace_active = True
+#     fan_speed = "High"
+# elif current_temperature < target_temperature - 5.0: # extreme cold fallback
+#     furnace_active = True
+#     fan_speed = "Emergency"
+# else:
+#    furnace_active = False
+#    fan_speed = "Off"
 
+
+# n = 0
+# while n < 5:
+#     # n += 1 # with this here its gonna skip the counting 0 rather from 1 
+#     # if n == 3:
+#     #     continue  # Skip the rest of the loop when n is 3
+#     print(n)
+#     # n += 1 like this is gonna skip the counting 0 rather from 1
+#     if n == 5:
+#         break  # Exit the loop when n is 5
+
+# for count in range(3):
+#     print("Grind " + str(count))
+
+# # range(5) counts from 0 to 4 (exactly 5 steps)
+# for twist_number in range(5):
+#     print("Grinding twist number " + str(twist_number + 1))
+#     # grind_pepper()
+
+# pepper_weight = 0  # Initialize the weight of pepper in ounces
+# while pepper_weight < 5:
+#     print(f"pouring pepper {pepper_weight} ounce(s)")
+#     pepper_weight += 1  # Increment the weight of pepper by 1 ounce
+   
+# def grind_pepper():
+#     print("Grinding pepper...")
+# pepper_weight = 0.0  # Initialize the weight of pepper in grams
+
+# # Repeat as long as our sensor weight is less than our target of 2.0 grams
+# while pepper_weight < 2.0:
+#     grind_pepper()
+#     pepper_weight = read_scale_sensor()  # Update the loop variable!
+
+# pepper_weight = 0.0
+
+# def grind_pepper():
+#     print("Grinding pepper...")
+
+# def read_scale_sensor():
+#     global pepper_weight
+#     pepper_weight += 0.5  # Simulate adding 0.5 g of pepper
+#     return pepper_weight
+
+# # Keep grinding until we reach 2.0 grams
+# while pepper_weight < 2.0:
+#     grind_pepper()
+#     pepper_weight = read_scale_sensor()
+#     print(f"Current weight: {pepper_weight} g")
+
+# print("Target weight reached!")
+
+# import keyword
+
+# print(keyword.iskeyword("global"))  # This will return True because "global" is a reserved keyword in Python
+
+# weight = 0.0
+# while weight < 1.5:
+#     weight = weight + 0.5
+#     print("Current weight: " + str(weight))
