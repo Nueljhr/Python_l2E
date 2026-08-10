@@ -9,6 +9,6 @@
 # favorite_movies[1] = "The Dark Knight"  # Change the second movie to a different title
 # print(favorite_movies)  # Output: ['Inception', 'The Dark Knight', 'Interstellar']
 
-fav_countries = ["Arab", "holland", "Nigeria"]
+fav_countries = ["Arab", "Holland", "Nigeria"]
 fav_countries[2] = "Canada"  # Change the third country to a different title
-print(fav_countries)  # Output: ['Arab', 'holland', 'Canada']
+print(fav_countries) # Output: ['Arab', 'Holland', 'Canada']
