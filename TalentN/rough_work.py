@@ -224,6 +224,58 @@
 # food = f"banana"
 # print(food)
 
-word = "ab"
+# word = "ab"
 
-print(word.upper())
+# print(word.upper())
+
+# The common cleanup methods:
+# order = "  latte  "
+
+# cleaned = order.strip()        # Removes whitespace from both ends -> "latte"
+# loud = order.upper()           # Converts to uppercase -> "  LATTE  "
+# quiet = order.lower()          # Converts to lowercase -> "  latte  "
+# proper = order.strip().title() # Chains methods to strip and capitalize -> "Latte"
+
+# # Replace words inside a string
+# message = "Your coffee is ready"
+# new_message = message.replace("coffee", "latte") # -> "Your latte is ready"
+
+# print(cleaned)
+# print(loud)
+# print(quiet)
+# print(proper)
+# print(message)
+# print(new_message)
+
+
+
+# customer_name = "  alIce   "
+
+# # Clean the string and save the output back into a variable
+# cleaned_name = customer_name.strip()
+# proper_name = cleaned_name.capitalize()
+
+# print("[" + proper_name + "]")
+
+# order = "  espresso  "
+# print(order.strip().upper())
+
+# customer_name = "  alIce   "
+# customer_name.strip()      # This runs, but the result is lost
+# customer_name.capitalize() # This runs, but the result is lost
+
+# print("[" + customer_name + "]")
+
+# name = "Christopher"
+# print(name[0:5])
+
+# customer = "Bob"
+# total = 12.0
+# print(f"Thank you, {customer}! Total: ₦{total:.2f}")
+
+raw_order_list = "latte,espresso,mocha"
+items = raw_order_list.split("e")
+print(items)
+
+menu_display = "\n".join(items)
+print(menu_display)
