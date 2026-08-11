@@ -81,3 +81,108 @@
 # this is a control flow statement that allows code to be executed repeatedly based on a condition. Python primarily uses two types of loops: 'for' loops and 'while' loops.
 # a structure that repeats a block of code a certain number of times or while a condition is true. Python has two main types of loops: 'for' loops and 'while' loops.
 # a simple loop that iterates over a sequence (like a list, tuple, or string) or other iterable objects. It executes a block of code for each item in the sequence.
+# LESSON 12: DEFINING FUNCTIONS
+# def greet_barista():
+#     print("Hello,barista!")
+
+# greet_barista()
+
+# "customer_name" is a placeholder parameter
+
+# def print_cup_label(customer_name):
+#     print("--------------------")
+#     print("Order: Hot Latte")
+#     print("Name: " + customer_name)
+#     print("--------------------")
+
+# # Pass real string values (arguments) into the function
+# print_cup_label("Alice")
+# print_cup_label("Bob")
+
+# The function is self-contained. It only cares about the parameter variable.
+# def print_label(name):
+#     print("Name on cup: " + name)
+#     # print(f"Name on cup: {name}")
+
+# # Pass the data directly into the call
+# print_label("Alice")
+# print_label("Bob")
+
+# def order_drink(drink,size):
+#     # print("Dispensing" + " " + size + " " + drink)
+#     print(f"Dispensing {size} {drink}")
+
+# order_drink("espresso", "large")
+
+# RETURN VALUE
+# DEFINIITION
+
+# def calculate_price(count, cost):
+#     total = count * cost
+#     return total
+# # print(int(calculate_price(3, 4.50)))
+# # customer_reciept = calculate_price(3, 4.50)
+# cups_ordered = 3
+# price_per_cup = 4.50
+# customer_reciept = calculate_price(cups_ordered, price_per_cup)
+
+# print(int(customer_reciept))
+
+# def add_tax(subtotal):
+#     return subtotal * 1.08
+
+# final_total = add_tax(10.0)
+# print(final_total)
+
+# PARAMETERS AND RETURN VALUES
+# def make_custom_drink(base_drink, milk_type, sugar_packets):
+#     # Assemble the descriptive string step-by-step
+#     description = f"{base_drink} with {milk_type} milk"
+    
+#     if sugar_packets > 0:
+#         description = description + f" and {sugar_packets} sugar packets"
+        
+#     return description
+
+# # Generate distinct order strings
+# order1 = make_custom_drink("Latte", "almond", 2)
+# order2 = make_custom_drink("Cappuccino", "whole", 0)
+
+# print(order1) # "Latte with almond milk and 2 sugar packets"
+# print(order2) # "Cappuccino with whole milk"
+
+# # DEFAULT PARAMETER VALUE
+# THE VALUE PYTHON USES WHEN YOU DONT PROVIDE AN ARGUMENT
+# def greet(name="Friend"):
+#     # print("Hello"+" "+name)
+#     print(f"Hello {name}")
+# greet()
+# # greet("Alice")
+
+# POSITIONAL ARGUMENTS
+# def introduce(name, age):
+#     print(name, age)
+
+# # introduce(26,"Kultur")
+
+# # KEYWORD ARGUMENT
+# introduce(name="Kultur", age=26)
+
+# COMBINE BOTH
+# def greet(name, message="Hello"):
+#     print(f"{message}, {name}")
+
+# greet("Kultur")
+# greet("Kultur", message="Good morning")
+
+
+# LESSON 13: FUNCTIONS AND PARAMETERS
+
+
+
+
+
+
+
+
+
