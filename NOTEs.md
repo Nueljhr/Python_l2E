@@ -30,3 +30,10 @@ a == b checks if a and b have same contents/values
 is   → SAME EXACT OBJECT?
 list are mutable
 tuples arent mutable
+.append()       → ADD a new item
+[index] = value → REPLACE an existing item
+append()       → ADD
+[index] = x    → REPLACE
+remove(x)      → REMOVE BY VALUE
+pop(index)     → REMOVE BY INDEX
+pop()          → REMOVE LAST
