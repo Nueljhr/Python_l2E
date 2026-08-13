@@ -37,3 +37,4 @@ append()       → ADD
 remove(x)      → REMOVE BY VALUE
 pop(index)     → REMOVE BY INDEX
 pop()          → REMOVE LAST
+

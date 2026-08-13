@@ -273,9 +273,36 @@
 # total = 12.0
 # print(f"Thank you, {customer}! Total: ₦{total:.2f}")
 
-raw_order_list = "latte,espresso,mocha"
-items = raw_order_list.split("e")
-print(items)
+# raw_order_list = "latte,espresso,mocha"
+# items = raw_order_list.split("e")
+# print(items)
 
-menu_display = "\n".join(items)
-print(menu_display)
+# menu_display = "\n".join(items)
+# print(menu_display)
+
+# def mix_ingredients(liquid,powder):
+#     print("Mixing " + liquid + " with " + powder)
+
+# mix_ingredients("milk","cocoa")
+
+# def print_receipt(item, cost):
+#     print(item + ": ₦" + str(cost))
+
+# print_receipt("Espresso", 4.50)
+
+# def cup_label(name, drink):
+#     print(f"{name} ordered {drink}")
+
+# cup_label(drink="espresso", name="Alice")
+
+# def process_order(name, drink, size="medium"):
+#     print(f"{name} wants a {size} {drink}")
+
+# process_order("Alice", "Latte")
+# process_order("Bob", "Espresso", "large")
+
+# def sprinkle_sugar(packets=1):
+#     print("Adding" + " " + str(packets) + " " + "sugar packets.")
+
+# sprinkle_sugar()
+# sprinkle_sugar(3)
