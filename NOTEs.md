@@ -37,4 +37,7 @@ append()       → ADD
 remove(x)      → REMOVE BY VALUE
 pop(index)     → REMOVE BY INDEX
 pop()          → REMOVE LAST
-
+scope tells about the specific area of a program where a variable can be used
+Global scope are variables declared outside of any function.
+.2f means round to 2 decimal place.
+ 

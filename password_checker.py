@@ -17,35 +17,36 @@
 
 
 
-print("="*30)
-print("EXERCISE")
-print("="*30)
+# # print("="*30)
+# # print("EXERCISE")
+# # print("="*30)
 
 
-correct_username = "nuel"
-correct_password = "1234"
-attempts = 4
+# # correct_username = "nuel"
+# # correct_password = "1234"
+# # attempts = 4
 
-while attempts > 0:
-    user_name = input("Enter User_name: ")
+# # while attempts > 0:
+# #     user_name = input("Enter User_name: ")
 
-    if user_name == correct_username:
-        while attempts > 0:
-            user_password = input("Enter User_password: ")
+# #     if user_name == correct_username:
+        
+# #         while attempts > 0:
+# #             user_password = input("Enter User_password: ")
 
-            if user_password != correct_password:
-                print(f"Incorrect details. {attempts} attempts left")
-            attempts -= 1
-        else:
-            print("Login successful")
-            break
-        breakf
+# #             if user_password != correct_password:
+# #                 print(f"Incorrect details. {attempts} attempts left")
+# #             attempts -= 1
+# #         else:
+# #             print("Login successful")
+# #             break
+# #         break
 
 
-    else:
-        attempts -= 1
+# #     else:
+# #         attempts -= 1
 
-        if attempts > 0:
-            print(f"Incorrect details. {attempts} attempts left")
-        else:
-            print("Account locked")
+# #         if attempts > 0:
+# #             print(f"Incorrect details. {attempts} attempts left")
+# #         else:
+# #             print("Account locked")
