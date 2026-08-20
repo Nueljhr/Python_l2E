@@ -40,4 +40,19 @@ pop()          → REMOVE LAST
 scope tells about the specific area of a program where a variable can be used
 Global scope are variables declared outside of any function.
 .2f means round to 2 decimal place.
- 
+clear() used to clear everything in a list while the list iitself remains
+remove("Banana")
+       ↓
+remove by VALUE
+
+pop(1)
+       ↓
+remove by INDEX + give item back
+
+clear()
+       ↓
+remove EVERYTHING from the list
+
+del fruits[1]
+       ↓
+delete by INDEX
