@@ -56,3 +56,7 @@ remove EVERYTHING from the list
 del fruits[1]
        ↓
 delete by INDEX
+[::2]   → forward by 2
+[::-1]  → backward by 1
+[::-2]  → backward by 2
+A CLASS DESCRIBES WHAT SOMETHING SHOULD LOOK LIKE
