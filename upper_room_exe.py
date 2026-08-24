@@ -10,13 +10,29 @@
 # class username:
 #     pass
 
-# Username = username()
+# User_name = username()
 
-# Username.First = input("What is your firstname: ")
-# Username.Last = input("What is your lastname: ")
+# User_name.First = input("What is your firstname: ")
+# User_name.Last = input("What is your lastname: ")
 
-# print(Username.First)
-# print(Username.Last)
+# firstname = User_name.First[:3]
+# lastname = User_name.Last[:3]
+
+# Username = firstname + lastname
+
+# print(Username)
+
+
+# first_name = input("What is your firstname: ")
+# last_name = input("What is your lastname: ")
+
+# first_three = first_name[:3]
+# last_three = last_name[:3]
+
+# username = first_three + last_three
+
+# print(username)
+
 
 # PRACTICE STRING SLICING
 # word = "individual"
@@ -39,12 +55,16 @@
 # print(f"Perimeter: {perimeter}")
 
 # BMI CALCULATOR
+print("BMI CALCULATOR")
+weight = float(input("Enter your weight: "))
+height = float(input("Enter your height: "))
 
-# weight = float(input("Enter your weight: "))
-# height = float(input("Enter your height: "))
+BMI = weight / (height * height)
+print(f"Your bmi is: {BMI}")
 
-# BMI = weight / (height * height)
-# print(int(BMI))
+if BMI < 20:
+    print(f"Category: Underweight")
+
 
 
 
@@ -52,8 +72,12 @@
 # def bmi():
 #     weight = float(input("Enter your weight: "))
 #     height = float(input("Enter your height: "))
-    
-#     return weight height
+
+#     BMI = weight / (height * height)
+
+#     return BMI
+
+# print(bmi())
 
 
     

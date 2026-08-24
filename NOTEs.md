@@ -60,3 +60,10 @@ delete by INDEX
 [::-1]  → backward by 1
 [::-2]  → backward by 2
 A CLASS DESCRIBES WHAT SOMETHING SHOULD LOOK LIKE
+A class is a blueprint.
+An object is an instance created from that blueprint.
+Attributes store information belonging to individual objects.
+A method is essentially a function that belongs to an object/class. A function that is defined inside a class
+upper() is a method associated with a string object.
+append() is a method associated with a list object.
+self represents the particular object using the method. So self basically allows the method to know: "Which object am I working with?"
