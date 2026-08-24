@@ -12,36 +12,76 @@
 
 # print(student)
 
-print("="*50)
-print("EXERCISE")
-print("="*50)
+# print("="*30)
+# print("EXERCISE")
+# print("="*30)
 
-correct_username = "Nuel"
-correct_password = "nuel"
-attempts = 4
+# correct_username = "Nuel"
+# correct_password = "nuel"
+# attempts = 4
 
-while attempts > 0:
-    username = input(f"Enter Username: ")
+# while attempts > 0:
+#     username = input("Enter Username: ")
 
-    if correct_username == username:
-
-        while attempts > 0:
-            password = input(f"Enter Password: ")
-
-            if correct_password != password:
-                print(f"Login Failed. {attempts} attempts left")
-            attempts -= 1
-        else:
-            print("Login Successful.")
-            break
-        break
-
-    else:
-        attempts -= 1
+#     if correct_username == username:
+#         attempts = 4
         
-        if attempts > 0:
-            print(f"Login Failed. {attempts} attempts left ")
-        else:
-            print("Account Locked")
+#         while attempts > 0:
+#             password = input(f"Enter Password: ")
+
+#             if correct_password == password:
+#                 print('Login successful!')
+#                 break
+            
+#             else:
+#                 attempts -= 1
+                
+#                 if attempts > 0:
+#                     print(f"Login Failed. {attempts} attempts left ")
+#                 else:
+#                     print("Account Locked")
+#         break
+
+#     else:
+#         attempts -= 1
         
+#         if attempts > 0:
+#             print(f"Login Failed. {attempts} attempts left ")
+#         else:
+#             print("Account Locked")
+        
+
+# print("="*30)
+# print("EXERCISE")
+# print("="*30)
+
+
+# correct_username = "nuel"
+# correct_password = "1234"
+# attempts = 4
+
+# while attempts > 0:
+#     user_name = input("Enter User_name: ")
+
+#     if user_name == correct_username:
+        
+#         while attempts > 0:
+#             user_password = input("Enter User_password: ")
+
+#             if user_password != correct_password:
+#                 print(f"Incorrect details. {attempts} attempts left")
+#             attempts -= 1
+#         else:
+#             print("Login successful")
+#             break
+#         break
+
+
+#     else:
+#         attempts -= 1
+
+#         if attempts > 0:
+#             print(f"Incorrect details. {attempts} attempts left")
+#         else:
+#             print("Account locked")
 

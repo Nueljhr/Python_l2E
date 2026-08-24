@@ -21,11 +21,33 @@ print(my_pet1.name)
 print(my_pet1.hungry)
 
 
-# LOGIN SYSTEM SIMULATOR
-correct_username = "admin"
-correct_password = "1234"
+# MINI CHALLENGE
+class Student:
+    pass
 
-attempts = 4
+student1 = Student()
+student2 = Student()
 
-while attempts > 0:
-    name = input("Enter username:")
+student1.name = "Munich"
+student1.age = 8
+student1.language = "German"
+
+
+student2.name = "Kultur"
+student2.age = 26
+student2.language = "Spanish"
+
+print(student1.name)
+print(student1.age)
+print(student1.language)
+print(student2.name)
+print(student2.age)
+print(student2.language)
+
+
+#
+class Pet:
+    pass
+pet = Pet()
+
+pet.name = "Max"
