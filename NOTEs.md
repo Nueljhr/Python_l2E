@@ -20,9 +20,11 @@ use .capitalize() for proper casing
 FUNCTION IS A NAMED REUSABLE BOCK OF CODE DESIGNED TO PERFORM A SINGLE, SPECIFIC TASK 
 PARAMETER IS A VARIABLE INSIDE A FUNCTION DEFINITION THAT ACTS AS A PLACE HOLDER.
 ARGUMENT THE ACTUAL VALUE PASS INTO THE FUNCTION WHEN YOU CALL IT.
-PARAMETERS HELPP YOU PASS DIFFERENT ARGUMENTS INTO THE SAME FUNCTION.
+PARAMETERS HELP YOU PASS DIFFERENT ARGUMENTS INTO THE SAME FUNCTION.
 ONCE PYTHON HITS RETURN IT HANDS DATA BACK AND STOPS RUNNING WHILE IF PYTHON HITS PRINT IT DISPLAYS DATA AND STOPS RUNNING.
 POSITIONAL ARGUMENTS MUST COME BEFORE KEYWORD ARGUMENTS.
+Positional arguments are assigned according to their position.
+Keyword arguments explicitly identify the parameter receiving each value.
 a is b checks for if a and b are exactly same object and produces a boolean
 a == b checks if a and b have same contents/values
 =    → ASSIGN
@@ -66,5 +68,9 @@ Attributes store information belonging to individual objects.
 A method is essentially a function that belongs to an object/class. A function that is defined inside a class
 upper() is a method associated with a string object.
 append() is a method associated with a list object.
-self represents the particular object using the method. So self basically allows the method to know: "Which object am I working with?"
+self represents the particular object using the method. So self basically allows the method to know: "Which object am I working with?". Python automatically supplies self; it represents the object currently being initialized/used. self connects the attribute to the particular object being created.
 if you use return then to this play you need print buh if you use print in the function then you dont need to call the function otherwise it will ask for a return value which will display as #none
+Parameter is Defined inside the function: "A placeholder waiting to receive a value."
+Argument is Supplied when calling: "The actual value I'm giving the parameter."
+Attribute is Stored on the object: "The value now belongs to this object."
+__init__() = automatically runs when you create an object and initializes its attributes. __init__() is commonly called an initializer. self.attribute = parameter

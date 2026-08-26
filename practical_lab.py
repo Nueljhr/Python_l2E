@@ -103,16 +103,28 @@
 # PET BEHAVIOR SYSTEM - VERSION 1
 
 class Pet:
+
+    # def __init__(self, name, species, hunger):
+    #     self.name = name
+    #     self.species = species 
+    #     self.hunger = hunger
+
     def introduce(self):   
         print(f"My name is {self.name} and I am a {self.species}")
     
-    def eat(self):
+    # def eat(self):
         
+    #     if self.hunger >= 40:
+    #         self.hunger = self.hunger - 20
+    #         return (f"{self.hunger}")
+    #     else:
+    #         return(f"{self.hunger}")
+
+    def eat(self):
         if self.hunger >= 40:
-            self.hunger = self.hunger - 20
-            return (f"{self.hunger}")
-        else:
-            return(f"{self.hunger}")
+            self.hunger -= 20
+
+        return self.hunger
         
 pet1 = Pet()
 pet2 = Pet()
