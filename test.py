@@ -11,21 +11,11 @@
 #         print(f"{i} * {j} = {i * j}")
 #     print()  # Print a blank line after each table
 
-class Pet:
+def append(my_list, item):
+    my_list.append(item)
 
-    def introduce(self):
-        print(f"My name is {self.name}")
-        print(f"Im {self.age} years old")
+numbers = [1, 2, 3]
 
+append(numbers, 5)
 
-pet1 = Pet()
-
-pet1.name = "Max"
-pet1.age = 8
-
-pet1.introduce()
-
-pet2 = Pet()
-pet2.name = "Evelyn"
-pet2.age = 20
-pet2.introduce()
+print(numbers)

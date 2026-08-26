@@ -17,7 +17,7 @@
 
 # # print("Thanks for using the program!")
 
-# # Pet Manager — Version 1
+# # PET MANAGER - VERSION 1
 
 # class Pet:
 #     pass
@@ -56,44 +56,88 @@
 
 
 
-# STUDENT MANAGEMENT SYSTEM
+# # STUDENT MANAGEMENT SYSTEM
 
-class Student:
-    pass
+# class Student:
+#     pass
 
-student1 = Student()
-student2 = Student()
-student3 = Student()
+# student1 = Student()
+# student2 = Student()
+# student3 = Student()
 
-student1.name = "Munich"
-student1.age = 8
-student1.course = "Assembly"
-student1.score = 90
+# student1.name = "Munich"
+# student1.age = 8
+# student1.course = "Assembly"
+# student1.score = 90
 
-student2.name = "Kultur"
-student2.age = 26
-student2.course = "Python"
-student2.score = 95
+# student2.name = "Kultur"
+# student2.age = 26
+# student2.course = "Python"
+# student2.score = 95
 
-student3.name = "Nuel"
-student3.age = 27
-student3.course = "Golang"
-student3.score = 98
+# student3.name = "Nuel"
+# student3.age = 27
+# student3.course = "Golang"
+# student3.score = 98
 
-print("========= STUDENT 1 =========")
-print(f"Name: {student1.name}")
-print(f'Age: {student1.age}')
-print(f"Course: {student1.course}")
-print(f"Score: {student1.score}")
-print("\n")
-print("========= STUDENT 2 =========")
-print(f"Name: {student2.name}")
-print(f'Age: {student2.age}')
-print(f"Course: {student2.course}")
-print(f"Score: {student2.score}")
-print("\n")
-print("========= STUDENT 3 =========")
-print(f"Name: {student3.name}")
-print(f'Age: {student3.age}')
-print(f"Course: {student3.course}")
-print(f"Score: {student3.score}")
+# print("========= STUDENT 1 =========")
+# print(f"Name: {student1.name}")
+# print(f'Age: {student1.age}')
+# print(f"Course: {student1.course}")
+# print(f"Score: {student1.score}")
+# # print("\n")
+# # or
+# print()
+# print("========= STUDENT 2 =========")
+# print(f"Name: {student2.name}")
+# print(f'Age: {student2.age}')
+# print(f"Course: {student2.course}")
+# print(f"Score: {student2.score}")
+# print()
+# print("========= STUDENT 3 =========")
+# print(f"Name: {student3.name}")
+# print(f'Age: {student3.age}')
+# print(f"Course: {student3.course}")
+# print(f"Score: {student3.score}")   
+
+# PET BEHAVIOR SYSTEM - VERSION 1
+
+class Pet:
+    def introduce(self):   
+        print(f"My name is {self.name} and I am a {self.species}")
+    
+    def eat(self):
+        
+        if self.hunger >= 40:
+            self.hunger = self.hunger - 20
+            return (f"{self.hunger}")
+        else:
+            return(f"{self.hunger}")
+        
+pet1 = Pet()
+pet2 = Pet()
+pet3 = Pet()
+
+pet1.name = "Hero"
+pet1.species = "Dog"
+pet1.hunger = 70
+
+pet2.name = "Sandra"
+pet2.species = "Cat"
+pet2.hunger = 89
+
+pet3.name = "Dora"
+pet3.species = "Bird"
+pet3.hunger = 39
+
+print("--- PET 1 ---")
+pet1.introduce()
+print(pet1.eat())
+print()
+print("--- PET 2 ---")
+pet2.introduce()
+print(pet2.eat())
+print()
+print("--- PET 3 ---")
+pet3.introduce()
+print(pet3.eat())

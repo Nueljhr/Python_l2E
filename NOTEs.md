@@ -67,3 +67,4 @@ A method is essentially a function that belongs to an object/class. A function t
 upper() is a method associated with a string object.
 append() is a method associated with a list object.
 self represents the particular object using the method. So self basically allows the method to know: "Which object am I working with?"
+if you use return then to this play you need print buh if you use print in the function then you dont need to call the function otherwise it will ask for a return value which will display as #none
