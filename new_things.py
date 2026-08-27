@@ -25,14 +25,27 @@
 
 # MULTIPLICATION TABLE
 
-for i in range(1, 6):
-    print(f'\n{i} Times Multiplication Table:')
-    for j in range(1, 13): 
-        result = i * j
-        print(f'{i} x {j} = {result}')
+# for i in range(1, 6):
+#     print(f'\n{i} Times Multiplication Table:')
+#     for j in range(1, 13): 
+#         result = i * j
+#         print(f'{i} x {j} = {result}')
 
-#EXAMPLE
-class Student:
+# #EXAMPLE
+# class Student:
 
-    def greet(self):
-        print("Hello")
+#     def greet(self):
+#         print("Hello")
+
+#HOW TO USE __INIT__
+
+class Me:
+
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+
+me = Me(name="Kultur", species="Human")
+
+print(me.name)
+print(me.species)
