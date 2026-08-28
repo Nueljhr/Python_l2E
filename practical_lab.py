@@ -102,54 +102,84 @@
 
 # PET BEHAVIOR SYSTEM - VERSION 1
 
+# class Pet:
+
+#     # def __init__(self, name, species, hunger):
+#     #     self.name = name
+#     #     self.species = species 
+#     #     self.hunger = hunger
+
+#     def introduce(self):   
+#         print(f"My name is {self.name} and I am a {self.species}")
+    
+#     # def eat(self):
+        
+#     #     if self.hunger >= 40:
+#     #         self.hunger = self.hunger - 20
+#     #         return (f"{self.hunger}")
+#     #     else:
+#     #         return(f"{self.hunger}")
+
+#     def eat(self):
+#         if self.hunger >= 40:
+#             self.hunger -= 20
+
+#         return self.hunger
+        
+# pet1 = Pet()
+# pet2 = Pet()
+# pet3 = Pet()
+
+# pet1.name = "Hero"
+# pet1.species = "Dog"
+# pet1.hunger = 70
+
+# pet2.name = "Sandra"
+# pet2.species = "Cat"
+# pet2.hunger = 89
+
+# pet3.name = "Dora"
+# pet3.species = "Bird"
+# pet3.hunger = 39
+
+# print("--- PET 1 ---")
+# pet1.introduce()
+# print(pet1.eat())
+# print()
+# print("--- PET 2 ---")
+# pet2.introduce()
+# print(pet2.eat())
+# print()
+# print("--- PET 3 ---")
+# pet3.introduce()
+# print(pet3.eat())
+
+
+# PET CLASS
+
 class Pet:
 
-    # def __init__(self, name, species, hunger):
-    #     self.name = name
-    #     self.species = species 
-    #     self.hunger = hunger
+    def __init__(self, hunger):
+        self.hunger = hunger
 
-    def introduce(self):   
-        print(f"My name is {self.name} and I am a {self.species}")
-    
-    # def eat(self):
-        
-    #     if self.hunger >= 40:
-    #         self.hunger = self.hunger - 20
-    #         return (f"{self.hunger}")
-    #     else:
-    #         return(f"{self.hunger}")
+    def feed(self):
+        self.hunger -= 20
 
-    def eat(self):
-        if self.hunger >= 40:
-            self.hunger -= 20
+        # if 0 < self.hunger < 100:
+        if self.hunger < 0:
+            self.hunger = 0
 
-        return self.hunger
-        
-pet1 = Pet()
-pet2 = Pet()
-pet3 = Pet()
-
-pet1.name = "Hero"
-pet1.species = "Dog"
-pet1.hunger = 70
-
-pet2.name = "Sandra"
-pet2.species = "Cat"
-pet2.hunger = 89
-
-pet3.name = "Dora"
-pet3.species = "Bird"
-pet3.hunger = 39
-
-print("--- PET 1 ---")
-pet1.introduce()
-print(pet1.eat())
+pet1 = Pet(19)
+pet1.feed()
+print(pet1.hunger)
 print()
-print("--- PET 2 ---")
-pet2.introduce()
-print(pet2.eat())
+pet2 = Pet(50)
+pet2.feed()
+print(pet2.hunger)
 print()
-print("--- PET 3 ---")
-pet3.introduce()
-print(pet3.eat())
+pet3 = Pet(79)
+pet3.feed()
+print(pet3.hunger)
+
+
+

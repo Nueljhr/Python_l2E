@@ -49,3 +49,5 @@ me = Me(name="Kultur", species="Human")
 
 print(me.name)
 print(me.species)
+
+
