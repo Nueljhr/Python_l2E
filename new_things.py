@@ -54,8 +54,45 @@
 # 
 count = 0
 for number in range(1, 6):
+    # Nested loop
     for value in range(number):
         if value == 2:
             continue
         count += value
 print(count)
+
+# 1 → range(1) → 0
+# 2 → range(2) → 0,1
+# 3 → range(3) → 0,1,2
+# 4 → range(4) → 0,1,2,3
+# 5 → range(5) → 0,1,2,3,4
+
+# number = 1
+#     ↓
+#     value = 0
+
+# number = 2
+#     ↓
+#     value = 0
+#     value = 1
+
+# number = 3
+#     ↓
+#     value = 0
+#     value = 1
+#     value = 2
+
+# number = 4
+#     ↓
+#     value = 0
+#     value = 1
+#     value = 2
+#     value = 3
+
+# number = 5
+#     ↓
+#     value = 0
+#     value = 1
+#     value = 2
+#     value = 3
+#     value = 4

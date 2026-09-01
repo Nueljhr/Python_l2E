@@ -43,8 +43,8 @@
 
 
 # PRACTICAL 3
-totnum_sec = int(input("Seconds: "))
-comp_hours = totnum_sec // 3600
-rem_min = (totnum_sec % 3600) // 60
-seconds = totnum_sec % 60
-print(f"{comp_hours} hours, {rem_min} minutes, {seconds} secs")
+Tot_Sec = int(input("Seconds: "))
+Comp_Hours = Tot_Sec // 3600
+Rem_Min = (Tot_Sec % 3600) // 60
+Seconds = Tot_Sec % 60
+print(f"{Comp_Hours} hours, {Rem_Min} minutes, {Seconds} secs")

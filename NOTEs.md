@@ -75,3 +75,5 @@ Argument is Supplied when calling: "The actual value I'm giving the parameter."
 Attribute is Stored on the object: "The value now belongs to this object."
 __init__() = automatically runs when you create an object and initializes its attributes. __init__() is commonly called an initializer. self.attribute = parameter
 A rule inside a method only controls behavior when that method is executed. It does not automatically protect an attribute from direct modification elsewhere.
+continue means: "Skip the rest of THIS current loop iteration and go to the next one."
+range() starts at 0 by default
