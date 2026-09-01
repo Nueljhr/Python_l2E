@@ -39,15 +39,23 @@
 
 #HOW TO USE __INIT__
 
-class Me:
+# class Me:
 
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
+#     def __init__(self, name, species):
+#         self.name = name
+#         self.species = species
 
-me = Me(name="Kultur", species="Human")
+# me = Me(name="Kultur", species="Human")
 
-print(me.name)
-print(me.species)
+# print(me.name)
+# print(me.species)
 
 
+# 
+count = 0
+for number in range(1, 6):
+    for value in range(number):
+        if value == 2:
+            continue
+        count += value
+print(count)

@@ -42,6 +42,8 @@ class Student:
 
         if self.score > 100:
             self.score = 100
+    
+
 
 student1 = Student("Kultur", 89)
 student1.introduce()
@@ -57,6 +59,8 @@ student3 = Student(name="Nuel", score=80)
 student3.introduce()
 student3.improve_score()
 print(student3.score)
+
+
 
 
 

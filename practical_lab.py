@@ -165,20 +165,32 @@ class Pet:
     def feed(self):
         self.hunger -= 20
 
-        # if 0 < self.hunger < 100:
+    
         if self.hunger < 0:
             self.hunger = 0
+            
+    def eat(self):
+            self.hunger += 20
+            
+            if self.hunger > 100:
+                self.hunger = 100
 
 pet1 = Pet(19)
 pet1.feed()
+print(pet1.hunger)
+pet1.eat()
 print(pet1.hunger)
 print()
 pet2 = Pet(50)
 pet2.feed()
 print(pet2.hunger)
+pet2.eat()
+print(pet2.hunger)
 print()
-pet3 = Pet(79)
-pet3.feed()
+pet3 = Pet(84)
+# pet3.feed()
+# print(pet3.hunger)
+pet3.eat()
 print(pet3.hunger)
 
 
