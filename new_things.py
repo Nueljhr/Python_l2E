@@ -52,14 +52,14 @@
 
 
 # 
-count = 0
-for number in range(1, 6):
-    # Nested loop
-    for value in range(number):
-        if value == 2:
-            continue
-        count += value
-print(count)
+# count = 0
+# for number in range(1, 6):
+#     # Nested loop
+#     for value in range(number):
+#         if value == 2:
+#             continue
+#         count += value
+# print(count)
 
 # 1 → range(1) → 0
 # 2 → range(2) → 0,1
@@ -96,3 +96,28 @@ print(count)
 #     value = 2
 #     value = 3
 #     value = 4
+
+
+# age = int(input("Enter your age: "))
+# if age < 18:
+#     print("You are a minor.")
+# elif age >= 18 and age < 65:
+#     print("You are an adult.")
+# else:
+#     print("You are a senior citizen.")  
+
+# number = int(input("Enter a number: "))
+# if number > 0:
+#     print("positive")
+# elif number < 0:
+#     print("negative")
+# else:
+#     print("zero.")
+
+count = 0
+for x in range(5):
+    number = int(input("Enter a number: "))
+    if number > 0:
+        count += 1
+print(f"There are {count} positive numbers.")
+
