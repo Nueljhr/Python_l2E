@@ -114,10 +114,35 @@
 # else:
 #     print("zero.")
 
+# count = 0
+# for x in range(5):
+#     number = int(input("Enter a number: "))
+#     if number > 0:
+#         count += 1
+# print(f"There are {count} positive numbers.")
+
+# sum_num = 0
+# for x in range(5):
+#   number = int(input("Enter a number: "))
+#   if number > 0:
+#     sum_num += number
+# print(f"sum of number: {sum_num}")
+
+# sum_num = 0
+# for x in range(5):
+#   number = int(input("Enter a number: "))
+#   if number < 0:
+#     sum_num += number
+# print(f"sum of number: {sum_num}")
+
+
 count = 0
 for x in range(5):
     number = int(input("Enter a number: "))
-    if number > 0:
+    if number > 10:
         count += 1
-print(f"There are {count} positive numbers.")
+print(f"There are {count} numbers greater than 10.")
 
+
+    
+    
