@@ -136,12 +136,13 @@
 # print(f"sum of number: {sum_num}")
 
 
-count = 0
-for x in range(5):
-    number = int(input("Enter a number: "))
-    if number > 10:
-        count += 1
-print(f"There are {count} numbers greater than 10.")
+# count = 0
+# for x in range(5):
+#     number = int(input("Enter a number: "))
+#     if number > 10:
+#         count += 1
+# print(f"There are {count} numbers greater than 10.")
+
 
 
     
