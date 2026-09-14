@@ -151,9 +151,25 @@
 #         sum_of_positive_numbers += number
 # print(f"The sum of positive numbers is: {sum_of_positive_numbers}.")
 
-sum_of_numbers = 0
+# sum_of_numbers = 0
+# for _ in range(5):
+#     number = int(input("Enter a number: "))
+#     sum_of_numbers += number
+#     average = sum_of_numbers / 5
+# print(f"The average of the numbers is: {average}.")
+
+sum_of_positive_numbers = 0
+count = 0
 for _ in range(5):
     number = int(input("Enter a number: "))
-    sum_of_numbers += number
-    average = sum_of_numbers / 5
-print(f"The average of the numbers is: {average}.")
+    if number > 0:
+        count += 1
+        sum_of_positive_numbers += number
+if count > 0:
+    average = sum_of_positive_numbers / count
+    print(f"The average is: {average}")
+else:
+    print("There were no positive numbers.")
+
+# check = 0 / 0
+# print(check)

@@ -142,3 +142,9 @@
 #     if number > 10:
 #         count += 1
 # print(f"There are {count} numbers greater than 10.")
+# WHILE LOOP
+count = 1              # START
+
+while count <= 5:      # CONDITION
+    print(count)
+    count += 1         # UPDATE

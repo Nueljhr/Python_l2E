@@ -80,3 +80,5 @@ range() starts at 0 by default
 An accumulator is simply a variable that keeps collecting/updating a result as a program runs.
 isinstance(account_balance, int) # False
 isinstance is used to check if a variable is of or matches a particular data type. It takes a value and the type you want to check it against, then returns a boolean, also allows you to check for multiple types at once.
+the in operator, which returns a boolean that specifies whether the character or characters exist in the string or not.
+use len() to check the length of a string
