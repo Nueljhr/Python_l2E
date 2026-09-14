@@ -85,3 +85,75 @@
 #         else:
 #             print("Account locked")
 
+# GETTING MAXIMUM NUMBER FROM USER INPUTS
+# numbers = []
+# for _ in  range(5):
+#     number = int(input("Enter a number: "))
+#     numbers.append(number)
+#     max_number =max(numbers)
+# print(f"This is the maximum number: {max_number}.")
+
+
+# max_number = int(-1000000) # Initialize max_number to the smallest possible value
+# for x in range(5):
+#     number = int(input("Enter a number: "))
+
+#     if number > max_number:
+#         max_number = number
+
+# print(f"The largest number is {max_number}")
+
+
+# number = int(input("Enter a number: "))
+# largest_number = number
+# for _ in range(4): 
+#     number = int(input("Enter a number: "))
+#     if number > largest_number:
+#         largest_number = number
+        
+# print(f"Maximum number is: {largest_number}.")
+
+
+# number = int(input("Enter a number: "))
+# smallest_number = number
+# for _ in range(4):
+#   number = int(input("Enter a number: "))
+#   if number < smallest_number:
+#     smallest_number = number
+# print(f"Smallest number is: {smallest_number}.") 
+
+# count = 0
+# for _ in range(5):
+#     number = int(input("Enter a number: "))
+#     if number < 0:
+#         count += 1
+# print(f"There are {count} negative numbers.")
+
+# sum_of_numbers = 0
+# for _ in range(5):
+#     number = int(input("Enter a number: "))
+#     if number < 0:
+#         sum_of_numbers += number
+# print(f"The sum of negative numbers is: {sum_of_numbers}.")
+
+# # Ask the user for 5 numbers and calculate the sum of only the negative numbers.
+# sum_of_negative_numbers = 0
+# for _ in range(5):
+#     number = int(input("Enter a number: "))
+#     if number < 0:
+#         sum_of_negative_numbers += number
+# print(f"The sum of negative numbers is: {sum_of_negative_numbers}.")
+
+# sum_of_positive_numbers = 0
+# for _ in range(5):
+#     number = int(input("Enter a number: "))
+#     if number > 0:
+#         sum_of_positive_numbers += number
+# print(f"The sum of positive numbers is: {sum_of_positive_numbers}.")
+
+sum_of_numbers = 0
+for _ in range(5):
+    number = int(input("Enter a number: "))
+    sum_of_numbers += number
+    average = sum_of_numbers / 5
+print(f"The average of the numbers is: {average}.")

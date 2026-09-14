@@ -77,3 +77,6 @@ __init__() = automatically runs when you create an object and initializes its at
 A rule inside a method only controls behavior when that method is executed. It does not automatically protect an attribute from direct modification elsewhere.
 continue means: "Skip the rest of THIS current loop iteration and go to the next one."
 range() starts at 0 by default
+An accumulator is simply a variable that keeps collecting/updating a result as a program runs.
+isinstance(account_balance, int) # False
+isinstance is used to check if a variable is of or matches a particular data type. It takes a value and the type you want to check it against, then returns a boolean, also allows you to check for multiple types at once.
