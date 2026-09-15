@@ -82,3 +82,15 @@ isinstance(account_balance, int) # False
 isinstance is used to check if a variable is of or matches a particular data type. It takes a value and the type you want to check it against, then returns a boolean, also allows you to check for multiple types at once.
 the in operator, which returns a boolean that specifies whether the character or characters exist in the string or not.
 use len() to check the length of a string
+join(): Joins the strings in a collection into a single string with a separator.
+replace(old, new): Returns a new string with all occurrences of old replaced by new.
+split()
+startswith(prefix): Returns a boolean indicating if a string starts with the specified prefix.
+endswith(suffix): Returns a boolean indicating if a string ends with the specified suffix.
+strip(): Returns a new string with the specified leading and trailing characters removed. If no argument is passed it removes leading and trailing whitespace.
+find(substring): Returns the index of the first occurrence of substring, or -1 if it doesn't find one.
+count(substring): Returns the number of times a substring appears in a string.
+capitalize(): Returns a new string with the first character capitalized and the other characters lowercased.
+isupper(): Returns True if all letters in the string are uppercase and False if not.
+islower(): Returns True if all letters in the string are lowercase and False if not.
+title(): Returns a new string with the first letter of each word capitalized.
