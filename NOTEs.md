@@ -94,3 +94,6 @@ capitalize(): Returns a new string with the first character capitalized and the 
 isupper(): Returns True if all letters in the string are uppercase and False if not.
 islower(): Returns True if all letters in the string are lowercase and False if not.
 title(): Returns a new string with the first letter of each word capitalized.
+round(): Rounds a number to the specified number of decimal places. By default this function rounds to the nearest integer, and returns a whole number with no decimal places:
+abs(): returns the absolute value of a number
+pow(): raises a number to the power of another or performs modular exponentiation.
