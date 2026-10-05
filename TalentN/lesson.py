@@ -134,46 +134,46 @@
 # # final_total = add_tax(10.0)
 # # print(final_total)
 
-# # PARAMETERS AND RETURN VALUES
-# # def make_custom_drink(base_drink, milk_type, sugar_packets):
-# #     # Assemble the descriptive string step-by-step
-# #     description = f"{base_drink} with {milk_type} milk"
+# PARAMETERS AND RETURN VALUES
+# def make_custom_drink(base_drink, milk_type, sugar_packets):
+#     # Assemble the descriptive string step-by-step
+#     description = f"{base_drink} with {milk_type} milk"
     
-# #     if sugar_packets > 0:
-# #         description = description + f" and {sugar_packets} sugar packets"
+#     if sugar_packets > 0:
+#         description = description + f" and {sugar_packets} sugar packets"
         
-# #     return description
+#     return description
 
-# # # Generate distinct order strings
-# # order1 = make_custom_drink("Latte", "almond", 2)
-# # order2 = make_custom_drink("Cappuccino", "whole", 0)
+# # Generate distinct order strings
+# order1 = make_custom_drink("Latte", "almond", 2)
+# order2 = make_custom_drink("Cappuccino", "whole", 0)
 
-# # print(order1) # "Latte with almond milk and 2 sugar packets"
-# # print(order2) # "Cappuccino with whole milk"
+# print(order1) # "Latte with almond milk and 2 sugar packets"
+# print(order2) # "Cappuccino with whole milk"
 
-# # # DEFAULT PARAMETER VALUE
-# # THE VALUE PYTHON USES WHEN YOU DONT PROVIDE AN ARGUMENT
-# # def greet(name="Friend"):
-# #     # print("Hello"+" "+name)
-# #     print(f"Hello {name}")
-# # greet()
-# # # greet("Alice")
+# # DEFAULT PARAMETER VALUE
+# THE VALUE PYTHON USES WHEN YOU DONT PROVIDE AN ARGUMENT
+# def greet(name="Friend"):
+#     # print("Hello"+" "+name)
+#     print(f"Hello {name}")
+# greet()
+# # greet("Alice")
 
-# # POSITIONAL ARGUMENTS
-# # def introduce(name, age):
-# #     print(name, age)
+# POSITIONAL ARGUMENTS
+# def introduce(name, age):
+#     print(name, age)
 
-# # # introduce(26,"Kultur")
+# # introduce(26,"Kultur")
 
-# # # KEYWORD ARGUMENT
-# # introduce(name="Kultur", age=26)
+# # KEYWORD ARGUMENT
+# introduce(name="Kultur", age=26)
 
-# # COMBINE BOTH
-# # def greet(name, message="Hello"):
-# #     print(f"{message}, {name}")
+# COMBINE BOTH
+# def greet(name, message="Hello"):
+#     print(f"{message}, {name}")
 
-# # greet("Kultur")
-# # greet("Kultur", message="Good morning")
+# greet("Kultur")
+# greet("Kultur", message="Good morning")
 
 
 # # LESSON 13: FUNCTIONS AND PARAMETERS
@@ -260,3 +260,4 @@
 
 
 
+# list arithematic operational signs

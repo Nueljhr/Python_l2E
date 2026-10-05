@@ -97,3 +97,6 @@ title(): Returns a new string with the first letter of each word capitalized.
 round(): Rounds a number to the specified number of decimal places. By default this function rounds to the nearest integer, and returns a whole number with no decimal places:
 abs(): returns the absolute value of a number
 pow(): raises a number to the power of another or performs modular exponentiation.
+IDE stands for Integrated Development Environment and it has features including a code editor, testing tools, a terminal and more.
+An interactive shell is a program that lets you type commands one at a time and see the results.
+The Python interpreter is following what is known as the Read, Evaluate, Print, Loop cycle. Or REPL for short
