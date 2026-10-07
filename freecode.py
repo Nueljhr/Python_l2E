@@ -340,3 +340,53 @@ print(not 0) # True, because 0 is falsy
 print(not 1) # False, because 1 is truthy
 print(not False) # True, because False is falsy
 print(not True) # False, because True is truthy
+
+developer = 'Jessica'
+list(developer) # ['J', 'e', 's', 's', 'i', 'c', 'a']
+
+# UNPACKING VALUES FROM A LIST
+developer = ['Alice', 34, 'Rust Developer']
+name, age, job = developer
+
+print(name) # 'Alice'
+print(age) # 34
+print(job) # 'Rust Developer'
+
+desserts = ['Cake', 'Cookies', 'Ice Cream', 'Pie', 'Brownies']
+desserts[1:4] # ['Cookies', 'Ice Cream', 'Pie']
+
+# APPEND
+numbers = [1, 2, 3, 4, 5]
+even_numbers = [6, 8, 10]
+
+numbers.append(even_numbers)
+print(numbers) # [1, 2, 3, 4, 5, [6, 8, 10]]
+
+# EXTEND
+numbers = [1, 2, 3, 4, 5]
+even_numbers = [6, 8, 10]
+
+numbers.extend(even_numbers)
+print(numbers) # [1, 2, 3, 4, 5, 6, 8, 10]
+
+# INSERT
+numbers = [1, 2, 3, 4, 5]
+numbers.insert(2, 2.5)
+
+print(numbers) # [1, 2, 2.5, 3, 4, 5]
+
+# REMOVE
+numbers = [10, 20, 30, 40, 50, 50]
+numbers.remove(50)
+
+print(numbers) # [10, 20, 30, 40, 50]
+
+# POP
+numbers = [1, 2, 3, 4, 5]
+numbers.pop() # The number 5 is returned
+
+# CLEAR
+numbers = [1, 2, 3, 4, 5]
+numbers.clear()
+
+print(numbers) # []
