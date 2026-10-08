@@ -100,3 +100,4 @@ pow(): raises a number to the power of another or performs modular exponentiatio
 IDE stands for Integrated Development Environment and it has features including a code editor, testing tools, a terminal and more.
 An interactive shell is a program that lets you type commands one at a time and see the results.
 The Python interpreter is following what is known as the Read, Evaluate, Print, Loop cycle. Or REPL for short
+A tuple is a Python data type used to create an ordered sequence of values. Tuples can contain a mixed set of data types. Another way to create a tuple is by using the tuple() constructor.

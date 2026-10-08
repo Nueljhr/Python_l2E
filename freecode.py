@@ -385,8 +385,124 @@ print(numbers) # [10, 20, 30, 40, 50]
 numbers = [1, 2, 3, 4, 5]
 numbers.pop() # The number 5 is returned
 
+numbers = [1, 2, 3, 4, 5]
+numbers.pop(1) # The number 2 is returned
+
 # CLEAR
 numbers = [1, 2, 3, 4, 5]
 numbers.clear()
 
 print(numbers) # []
+
+# SORT() AND SORTED()
+numbers = [19, 2, 35, 1, 67, 41]
+numbers.sort()
+
+print(numbers) # [1, 2, 19, 35, 41, 67]
+
+numbers = [19, 2, 35, 1, 67, 41]
+sorted_numbers = sorted(numbers)
+
+print(numbers) # [19, 2, 35, 1, 67, 41]
+print(sorted_numbers) # [1, 2, 19, 35, 41, 67]
+
+# REVERSE()
+numbers = [6, 5, 4, 3, 2, 1]
+numbers.reverse()
+
+print(numbers) # [1, 2, 3, 4, 5, 6]
+
+# INDEX()
+programming_languages = ['Rust', 'Java', 'Python', 'C++']
+programming_languages.index('Java') # 1
+
+# DEL
+developer = ['Jane Doe', 23, 'Python Developer']
+del developer[1]
+
+# TUPLE
+# TUPLE DATA TYPE
+# Accessing Tuple Elements
+developer = ('Alice', 34, 'Rust Developer')
+developer[1] # 34
+
+numbers = (1, 2, 3, 4, 5)
+numbers[-2] # 4
+
+developer = 'Jessica'
+tuple(developer) # ('J', 'e', 's', 's', 'i', 'c', 'a')
+
+# 
+programming_languages = ('Python', 'Java', 'C++', 'Rust')
+
+'Rust' in programming_languages # True
+'JavaScript' in programming_languages # False
+
+# Unpacking Values From a Tuple
+developer = ('Alice', 34, 'Rust Developer')
+name, age, job = developer
+
+print(name) # 'Alice'
+print(age) # 34
+print(job) # 'Rust Developer'
+
+developer = ('Alice', 34, 'Rust Developer')
+name, *rest = developer
+
+print(name) # 'Alice'
+print(rest) # [34, 'Rust Developer']
+
+# Slicing Tuples
+desserts = ('cake', 'pie', 'cookies', 'ice cream')
+desserts[1:3] # ('pie', 'cookies')
+
+# TUPLE METHODS
+# COUNT()
+programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+programming_languages.count('Rust') # 2
+
+programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+programming_languages.count('JavaScript') # 0
+
+# index() 
+programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+programming_languages.index('Java') # 1
+
+programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
+programming_languages.index('Python', 3) # 5 CAUSE ONLY START INDEX WAS DEFINED
+
+programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python', 'JavaScript', 'Python')
+programming_languages.index('Python', 2, 5) # 2 CAUSE START AND STOP INDEX WAS DEFINED
+
+# SORTED()
+numbers = (13, 2, 78, 3, 45, 67, 18, 7)
+sorted(numbers) # [2, 3, 7, 13, 18, 45, 67, 78]
+
+# KEY
+programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
+sorted(programming_languages, key=len)
+
+# Result
+# ['C++', 'Rust', 'Java', 'Rust', 'Python', 'Python']
+
+# REVERSE
+programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
+
+print(sorted(programming_languages, reverse=True))
+
+# Result
+# ['Rust', 'Rust', 'Python', 'Python', 'Java', 'C++']
+
+
+# LOOP
+# Using for Loops
+for char in 'code':
+    print(char)
+
+# Nesting for Loops
+categories = ['Fruit', 'Vegetable']
+foods = ['Apple', 'Carrot', 'Banana']
+
+for category in categories:
+    for food in foods:
+        print(category, food)
