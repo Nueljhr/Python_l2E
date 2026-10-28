@@ -57,9 +57,48 @@
 # print(student2.get_score())
 
 
+# number = 3
+# guess = 0
+
+# while guess != number:
+#     guess = int(input("Enter a number: "))
+#     if guess != number:
+#         print("Try again!")
+# print("Well done! You guessed it!")
+
+# ENUMERATE
+names = list(["Kultur", "Munich", "Python"])
+numbers = list(range(2, 21, 2))
+
+# for index, name in enumerate(names):
+#     print(f"INDEX: {index}, NAME: {name}")
+
+# for index, number in enumerate(numbers):
+#     print(f"INDEX: {index}, NUMBER: {number}")
+
+# # ZIP
+# for name, number in zip(names, numbers):
+#     print(f"NAME: {name}, NUMBER: {number}")
 
 
+# for num in range(21):
+#     if num % 2 == 0:
+#         print(f"{num} is even")
+# # or
+# even_numbers = [num for num in range(21) if num % 2 == 0]
+# print(even_numbers)
+
+# def name_is_long(names):
+#     return len(names) > 5
+# long_names = list(filter(name_is_long, names))
+# print(long_names)
 
 
+# MAP
+# farhenheit = [32.0, 50.0, 68.0, 86.0, 104.0]
 
+# def to_celsius(f):
+#     return((f - 32) * 5.0/9.0)
 
+# celsius = list(map(to_celsius, farhenheit))
+# print(celsius)

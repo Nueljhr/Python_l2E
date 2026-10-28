@@ -157,41 +157,65 @@
 
 # PET CLASS
 
-class Pet:
+# class Pet:
 
-    def __init__(self, hunger):
-        self.hunger = hunger
+#     def __init__(self, hunger):
+#         self.hunger = hunger
 
-    def feed(self):
-        self.hunger -= 20
+#     def feed(self):
+#         self.hunger -= 20
 
     
-        if self.hunger < 0:
-            self.hunger = 0
+#         if self.hunger < 0:
+#             self.hunger = 0
             
-    def eat(self):
-            self.hunger += 20
+#     def eat(self):
+#             self.hunger += 20
             
-            if self.hunger > 100:
-                self.hunger = 100
+#             if self.hunger > 100:
+#                 self.hunger = 100
 
-pet1 = Pet(19)
-pet1.feed()
-print(pet1.hunger)
-pet1.eat()
-print(pet1.hunger)
-print()
-pet2 = Pet(50)
-pet2.feed()
-print(pet2.hunger)
-pet2.eat()
-print(pet2.hunger)
-print()
-pet3 = Pet(84)
-# pet3.feed()
+# pet1 = Pet(19)
+# pet1.feed()
+# print(pet1.hunger)
+# pet1.eat()
+# print(pet1.hunger)
+# print()
+# pet2 = Pet(50)
+# pet2.feed()
+# print(pet2.hunger)
+# pet2.eat()
+# print(pet2.hunger)
+# print()
+# pet3 = Pet(84)
+# # pet3.feed()
+# # print(pet3.hunger)
+# pet3.eat()
 # print(pet3.hunger)
-pet3.eat()
-print(pet3.hunger)
 
 
+# PIN EXTRACTOR
+def pin_extractor(poems):
+    secret_codes = []
+    for poem in poems:
+        secret_code = ''
+        lines = poem.split('\n')
+        for line_index, line in enumerate(lines):
+            words = line.split()
+            if len(words) > line_index:
+                secret_code += str(len(words[line_index]))
+            else:
+                secret_code += '0'
+        secret_codes.append(secret_code)
+    return secret_codes
+        
 
+poem = """Stars and the moon
+shine in the sky
+white and
+until the end of the night"""
+
+poem2 = 'The grass is green\nhere and there\nhoping for rain\nbefore it turns yellow'
+poem3 = 'There\nonce\nwas\na\ndragon'
+
+print(pin_extractor([poem, poem2, poem3]))

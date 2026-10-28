@@ -197,312 +197,456 @@
 # result = 'abcbac'.translate(trans_table)
 # print(result)  # 123123
 
-# Modulo Operator (%): This returns the remainder when a number is divided by another number:
-int_1 = 56
-int_2 = 12
+# # Modulo Operator (%): This returns the remainder when a number is divided by another number:
+# int_1 = 56
+# int_2 = 12
 
-print(int_1 % int_2) # 8
+# print(int_1 % int_2) # 8
 
-# Floor Division (//): This operator is used to divide two numbers and round down the result to the nearest whole number:
-int_1 = 56
-int_2 = 12
+# # Floor Division (//): This operator is used to divide two numbers and round down the result to the nearest whole number:
+# int_1 = 56
+# int_2 = 12
 
-print(int_1 // int_2) # 4
+# print(int_1 // int_2) # 4
 
-# Exponentiation Operator (**): This operator is used to raise a number to the power of another:
-int_1 = 4
-int_2 = 2
+# # Exponentiation Operator (**): This operator is used to raise a number to the power of another:
+# int_1 = 4
+# int_2 = 2
 
-print(int_1 ** int_2) # 16
+# print(int_1 ** int_2) # 16
 
-# ROUND()
-# IT APPROXIMATES
-# round() Function: This is used to round a number to the nearest whole integer:
-num_1 = 3.4
-num_2 = 7.7
+# # ROUND()
+# # IT APPROXIMATES
+# # round() Function: This is used to round a number to the nearest whole integer:
+# num_1 = 3.4
+# num_2 = 7.7
 
-print(round(num_1)) # 3
-print(round(num_2)) # 8
+# print(round(num_1)) # 3
+# print(round(num_2)) # 8
 
-# ABS()
-# MORE LIKE TAKING AWAY THE NEGATIVE VIBES
-# abs() Function: This is used to return the absolute value of a number:
-num = -13
+# # ABS()
+# # MORE LIKE TAKING AWAY THE NEGATIVE VIBES
+# # abs() Function: This is used to return the absolute value of a number:
+# num = -13
 
-print(abs(num)) # 13
+# print(abs(num)) # 13
 
-# POW()
-# SO ITS ANOTHER FORM OF EXPONETIAL HMM
-# pow() Function: This is used to raise a number to the power of another:
-result = pow(2, 3) 
-print(result)  # 8
+# # POW()
+# # SO ITS ANOTHER FORM OF EXPONETIAL HMM
+# # pow() Function: This is used to raise a number to the power of another:
+# result = pow(2, 3) 
+# print(result)  # 8
 
-# Augmented Assignments
-# Definition: Augmented assignment applies an operation to a variable and stores the result back in the same variable, all in one step.
-# Addition assignment 
-my_var = 10
-my_var += 5
+# # Augmented Assignments
+# # Definition: Augmented assignment applies an operation to a variable and stores the result back in the same variable, all in one step.
+# # Addition assignment 
+# my_var = 10
+# my_var += 5
 
-print(my_var) # 15
+# print(my_var) # 15
 
-# Subtraction assignment
-count = 14
-count -= 3
+# # Subtraction assignment
+# count = 14
+# count -= 3
 
-print(count) # 11
+# print(count) # 11
 
-# Multiplication assignment 
-product = 65
-product *= 7
+# # Multiplication assignment 
+# product = 65
+# product *= 7
 
-print(product) # 455
+# print(product) # 455
 
-# Division assignment 
-price = 100
-price /= 4
+# # Division assignment 
+# price = 100
+# price /= 4
 
-print(price) # 25.0
+# print(price) # 25.0
 
-# Floor Division assignment 
-total_pages = 23
-total_pages //= 5
+# # Floor Division assignment 
+# total_pages = 23
+# total_pages //= 5
 
-print(total_pages) # 4
+# print(total_pages) # 4
 
-# Modulo assignment 
-bits = 35
-bits %= 2
+# # Modulo assignment 
+# bits = 35
+# bits %= 2
 
-print(bits) # 1
+# print(bits) # 1
 
-# Exponentiation assignment 
-power = 2
-power **= 3
+# # Exponentiation assignment 
+# power = 2
+# power **= 3
 
-print(power) # 8
+# print(power) # 8
 
-# Working with Functions
-# Definition: Functions are reusable pieces of code that take inputs (arguments) and returns an output. To call a function, you need to reference the function name followed by a set of parenthesis:
+# # Working with Functions
+# # Definition: Functions are reusable pieces of code that take inputs (arguments) and returns an output. To call a function, you need to reference the function name followed by a set of parenthesis:
 
-# int() Function: This is used to convert a number, boolean, or a numeric string into an integer:
-print(int(3.14)) # 3
-print(int('42')) # 42
-print(int(True)) # 1
-print(int(False)) # 0 
+# # int() Function: This is used to convert a number, boolean, or a numeric string into an integer:
+# print(int(3.14)) # 3
+# print(int('42')) # 42
+# print(int(True)) # 1
+# print(int(False)) # 0 
 
 
-# Working with if, elif and else Statements
-# if Statements: These are conditions used to determine if something is true or not. If the condition evaluates to True, then that block of code will run.
-# elif Clause: These are conditions that come after an if statement. An elif clause runs only if all previous conditions evaluate to False and its own condition evaluates to True.
-# else Clause: This will run if no other conditions evaluate to True.
+# # Working with if, elif and else Statements
+# # if Statements: These are conditions used to determine if something is true or not. If the condition evaluates to True, then that block of code will run.
+# # elif Clause: These are conditions that come after an if statement. An elif clause runs only if all previous conditions evaluate to False and its own condition evaluates to True.
+# # else Clause: This will run if no other conditions evaluate to True.
 
-# You can also use nested if statements like this:
+# # You can also use nested if statements like this:
 
-is_citizen = True
-age = 25
+# is_citizen = True
+# age = 25
 
-if is_citizen:
-    if age >= 18:
-        print('You are eligible to vote') # You are eligible to vote
-else:
-    print('You are not eligible to vote')
+# if is_citizen:
+#     if age >= 18:
+#         print('You are eligible to vote') # You are eligible to vote
+# else:
+#     print('You are not eligible to vote')
     
-    # Truthy and Falsy Values
-# Definition: In Python, every value has an inherent boolean value, or a built-in sense of whether it should be treated as True or False in a logical context. Many values are considered truthy, that is, they evaluate to True in a logical context. Others are falsy, meaning they evaluate to False. Here are some examples of falsy values:
-# None
-# False
-# Integer 0
-# Float 0.0
-# Empty strings ''
-# Other values like non-zero numbers, and non-empty strings are truthy.
+#     # Truthy and Falsy Values
+# # Definition: In Python, every value has an inherent boolean value, or a built-in sense of whether it should be treated as True or False in a logical context. Many values are considered truthy, that is, they evaluate to True in a logical context. Others are falsy, meaning they evaluate to False. Here are some examples of falsy values:
+# # None
+# # False
+# # Integer 0
+# # Float 0.0
+# # Empty strings ''
+# # Other values like non-zero numbers, and non-empty strings are truthy.
 
-# Working with the bool() Function
-# Definition: If you want to check whether a value is truthy or falsy, you can use the built-in bool() function. It explicitly converts a value to its boolean equivalent and returns True for truthy values and False for falsy values. Here are a few examples:
+# # Working with the bool() Function
+# # Definition: If you want to check whether a value is truthy or falsy, you can use the built-in bool() function. It explicitly converts a value to its boolean equivalent and returns True for truthy values and False for falsy values. Here are a few examples:
 
-print(bool(False)) # False
-print(bool(0))  # False
-print(bool('')) # False
+# print(bool(False)) # False
+# print(bool(0))  # False
+# print(bool('')) # False
 
-print(bool(True)) # True
-print(bool(1)) # True
-print(bool('Hello')) # True
+# print(bool(True)) # True
+# print(bool(1)) # True
+# print(bool('Hello')) # True
 
-# Boolean Operators and Short-circuiting
-# Definition: These are special operators that allow you to combine multiple expressions to create more complex decision-making logic in your code. There are three Boolean operators in Python: and, or, and not.
-# and Operator: This operator takes two operands and returns the first operand if it is falsy, otherwise, it returns the second operand. Both operands must be truthy for an expression to result in a truthy value.
-# or Operator: This operator returns the first operand if it is truthy, otherwise, it returns the second operand. An or expression results in a truthy value if at least one operand is truthy. Here is an example:
-# Short-circuiting: The and and or operators are known as a short-circuit operators. Short-circuiting means Python checks values from left to right and stops as soon as it determines the final result.
-# not Operator: This operator takes a single operand and inverts its boolean value. It converts truthy values to False and falsy values to True. Unlike the previous operators we looked at, not always returns True or False. Here are some examples:
+# # Boolean Operators and Short-circuiting
+# # Definition: These are special operators that allow you to combine multiple expressions to create more complex decision-making logic in your code. There are three Boolean operators in Python: and, or, and not.
+# # and Operator: This operator takes two operands and returns the first operand if it is falsy, otherwise, it returns the second operand. Both operands must be truthy for an expression to result in a truthy value.
+# # or Operator: This operator returns the first operand if it is truthy, otherwise, it returns the second operand. An or expression results in a truthy value if at least one operand is truthy. Here is an example:
+# # Short-circuiting: The and and or operators are known as a short-circuit operators. Short-circuiting means Python checks values from left to right and stops as soon as it determines the final result.
+# # not Operator: This operator takes a single operand and inverts its boolean value. It converts truthy values to False and falsy values to True. Unlike the previous operators we looked at, not always returns True or False. Here are some examples:
 
-print(not '') # True, because empty string is falsy
-print(not 'Hello') # False, because non-empty string is truthy
-print(not 0) # True, because 0 is falsy
-print(not 1) # False, because 1 is truthy
-print(not False) # True, because False is falsy
-print(not True) # False, because True is truthy
+# print(not '') # True, because empty string is falsy
+# print(not 'Hello') # False, because non-empty string is truthy
+# print(not 0) # True, because 0 is falsy
+# print(not 1) # False, because 1 is truthy
+# print(not False) # True, because False is falsy
+# print(not True) # False, because True is truthy
 
-developer = 'Jessica'
-list(developer) # ['J', 'e', 's', 's', 'i', 'c', 'a']
+# developer = 'Jessica'
+# list(developer) # ['J', 'e', 's', 's', 'i', 'c', 'a']
 
-# UNPACKING VALUES FROM A LIST
-developer = ['Alice', 34, 'Rust Developer']
-name, age, job = developer
+# # UNPACKING VALUES FROM A LIST
+# developer = ['Alice', 34, 'Rust Developer']
+# name, age, job = developer
 
-print(name) # 'Alice'
-print(age) # 34
-print(job) # 'Rust Developer'
+# print(name) # 'Alice'
+# print(age) # 34
+# print(job) # 'Rust Developer'
 
-desserts = ['Cake', 'Cookies', 'Ice Cream', 'Pie', 'Brownies']
-desserts[1:4] # ['Cookies', 'Ice Cream', 'Pie']
+# desserts = ['Cake', 'Cookies', 'Ice Cream', 'Pie', 'Brownies']
+# desserts[1:4] # ['Cookies', 'Ice Cream', 'Pie']
 
-# APPEND
+# # APPEND
+# numbers = [1, 2, 3, 4, 5]
+# even_numbers = [6, 8, 10]
+
+# numbers.append(even_numbers)
+# print(numbers) # [1, 2, 3, 4, 5, [6, 8, 10]]
+
+# # EXTEND
+# numbers = [1, 2, 3, 4, 5]
+# even_numbers = [6, 8, 10]
+
+# numbers.extend(even_numbers)
+# print(numbers) # [1, 2, 3, 4, 5, 6, 8, 10]
+
+# # INSERT
+# numbers = [1, 2, 3, 4, 5]
+# numbers.insert(2, 2.5)
+
+# print(numbers) # [1, 2, 2.5, 3, 4, 5]
+
+# # REMOVE
+# numbers = [10, 20, 30, 40, 50, 50]
+# numbers.remove(50)
+
+# print(numbers) # [10, 20, 30, 40, 50]
+
+# # POP
+# numbers = [1, 2, 3, 4, 5]
+# numbers.pop() # The number 5 is returned
+
+# numbers = [1, 2, 3, 4, 5]
+# numbers.pop(1) # The number 2 is returned
+
+# # CLEAR
+# numbers = [1, 2, 3, 4, 5]
+# numbers.clear()
+
+# print(numbers) # []
+
+# # SORT() AND SORTED()
+# numbers = [19, 2, 35, 1, 67, 41]
+# numbers.sort()
+
+# print(numbers) # [1, 2, 19, 35, 41, 67]
+
+# numbers = [19, 2, 35, 1, 67, 41]
+# sorted_numbers = sorted(numbers)
+
+# print(numbers) # [19, 2, 35, 1, 67, 41]
+# print(sorted_numbers) # [1, 2, 19, 35, 41, 67]
+
+# # REVERSE()
+# numbers = [6, 5, 4, 3, 2, 1]
+# numbers.reverse()
+
+# print(numbers) # [1, 2, 3, 4, 5, 6]
+
+# # INDEX()
+# programming_languages = ['Rust', 'Java', 'Python', 'C++']
+# programming_languages.index('Java') # 1
+
+# # DEL
+# developer = ['Jane Doe', 23, 'Python Developer']
+# del developer[1]
+
+# # TUPLE
+# # TUPLE DATA TYPE
+# # Accessing Tuple Elements
+# developer = ('Alice', 34, 'Rust Developer')
+# developer[1] # 34
+
+# numbers = (1, 2, 3, 4, 5)
+# numbers[-2] # 4
+
+# developer = 'Jessica'
+# tuple(developer) # ('J', 'e', 's', 's', 'i', 'c', 'a')
+
+# # 
+# programming_languages = ('Python', 'Java', 'C++', 'Rust')
+
+# 'Rust' in programming_languages # True
+# 'JavaScript' in programming_languages # False
+
+# # Unpacking Values From a Tuple
+# developer = ('Alice', 34, 'Rust Developer')
+# name, age, job = developer
+
+# print(name) # 'Alice'
+# print(age) # 34
+# print(job) # 'Rust Developer'
+
+# developer = ('Alice', 34, 'Rust Developer')
+# name, *rest = developer
+
+# print(name) # 'Alice'
+# print(rest) # [34, 'Rust Developer']
+
+# # Slicing Tuples
+# desserts = ('cake', 'pie', 'cookies', 'ice cream')
+# desserts[1:3] # ('pie', 'cookies')
+
+# # TUPLE METHODS
+# # COUNT()
+# programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+# programming_languages.count('Rust') # 2
+
+# programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+# programming_languages.count('JavaScript') # 0
+
+# # index() 
+# programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+# programming_languages.index('Java') # 1
+
+# programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
+# programming_languages.index('Python', 3) # 5 CAUSE ONLY START INDEX WAS DEFINED
+
+# programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python', 'JavaScript', 'Python')
+# programming_languages.index('Python', 2, 5) # 2 CAUSE START AND STOP INDEX WAS DEFINED
+
+# # SORTED()
+# numbers = (13, 2, 78, 3, 45, 67, 18, 7)
+# sorted(numbers) # [2, 3, 7, 13, 18, 45, 67, 78]
+
+# # KEY
+# programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
+# sorted(programming_languages, key=len)
+
+# # Result
+# # ['C++', 'Rust', 'Java', 'Rust', 'Python', 'Python']
+
+# # REVERSE
+# programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
+
+# print(sorted(programming_languages, reverse=True))
+
+# # Result
+# # ['Rust', 'Rust', 'Python', 'Python', 'Java', 'C++']
+
+
+# # LOOP
+# # Using for Loops
+# for char in 'code':
+#     print(char)
+
+# # agendalists = ['nuel', 'maureen', 'is_isaac', 'gabby', 'i_wise']
+# # for name in agendalists:
+# #     for _ in name:
+# #         if len(name) > 5:
+# #             print(f"name)
+# #             break
+# #     print(name)
+
+# # Nesting for Loops
+# categories = ['Fruit', 'Vegetable']
+# foods = ['Apple', 'Carrot', 'Banana']
+
+# for category in categories:
+#     for food in foods:
+#         print(category, food)
+
+# # Using while Loops
+
+# secret_number = 3
+# guess = 0
+
+# while guess != secret_number:
+#     guess = int(input('Guess the number (1-5): '))
+#     if guess != secret_number:
+#         print('Wrong! Try again.')
+
+# print('You got it!')
+
+# # Using break and continue
+# developer_names = ['Jess', 'Naomi', 'Tom']
+
+# for developer in developer_names:
+#     if developer == 'Naomi':
+#         break
+#     print(developer)
+# # 
+# developer_names = ['Jess', 'Naomi', 'Tom']
+
+# for developer in developer_names:
+#     if developer == 'Naomi':
+#         continue
+#     print(developer)
+# # 
+# words = ['sky', 'apple', 'rhythm', 'fly', 'orange']
+
+# for word in words:
+#     for letter in word:
+#         if letter.lower() in 'aeiou':
+#             print(f"'{word}' contains the vowel '{letter}'")
+#             break
+#     else:
+#         print(f"'{word}' has no vowels")
+
+# # USING RANGE AND ENUMERATE
+# # Using range()
+# numbers = list(range(2, 11, 2))
+# print(numbers) # [2, 4, 6, 8, 10]
+
+# # Using enumerate()
+# # WITHOUT enumerate()
+# languages = ['Spanish', 'English', 'Russian', 'Chinese']
+# index = 0
+# for language in languages:
+#     print(f'Index {index} and language {language}')
+#     index += 1
+
+# # Using enumerate()
+# languages = ['Spanish', 'English', 'Russian', 'Chinese']
+# for index, language in enumerate(languages):
+#     print(f'Index {index} and language {language}')
+
+
+# languages = ['Spanish', 'English', 'Russian', 'Chinese']
+# list(enumerate(languages))
+# # [(0, 'Spanish'), (1, 'English'), (2, 'Russian'), (3, 'Chinese')]
+# # Passing a start index to enumerate()
+# languages = ['Spanish', 'English', 'Russian', 'Chinese']
+# for index, language in enumerate(languages, 1):
+#     print(f'Index {index} and language {language}')
+
+# # Using the zip() function
+# developers = ['Naomi', 'Dario', 'Jessica', 'Tom']
+# ids = [1, 2, 3, 4]
+
+# list(zip(developers, ids))
+# # [('Naomi', 1), ('Dario', 2), ('Jessica', 3), ('Tom', 4)]
+
+# # Using zip() in a for loop
+# developers = ['Naomi', 'Dario', 'Jessica', 'Tom']
+# ids = [1, 2, 3, 4]
+
+# for name, dev_id in zip(developers, ids):
+#     print(f'Name: {name}')
+#     print(f'ID: {dev_id}')
+#     # print(f'Name: {name}, ID: {dev_id}')
+
+# # List comprehensions
+# # Without list comprehensions  
+# even_numbers = []
+
+# for num in range(21):
+#     if num % 2 == 0:
+#         even_numbers.append(num)
+
+# print(even_numbers)
+
+# # With list comprehensions
+# even_numbers = [num for num in range(21) if num % 2 == 0]
+# print(even_numbers)
+
+# numbers = [1, 2, 3, 4, 5]
+# result = [(num, 'Even') if num % 2 == 0 else (num, 'Odd') for num in numbers]
+# print(result)
+
+# Using Conditional Expressions in List Comprehensions
 numbers = [1, 2, 3, 4, 5]
-even_numbers = [6, 8, 10]
+result = [(num, 'Even') if num % 2 == 0 else (num, 'Odd') for num in numbers]
+print(result)
 
-numbers.append(even_numbers)
-print(numbers) # [1, 2, 3, 4, 5, [6, 8, 10]]
+# filter()
+words = ['tree', 'sky', 'mountain', 'river', 'cloud', 'sun']
 
-# EXTEND
+def is_long_word(word):
+    return len(word) > 4
+
+long_words = list(filter(is_long_word, words))
+print(long_words) # ['mountain', 'river', 'cloud']
+
+# map()
+celsius = [0, 10, 20, 30, 40]
+
+def to_fahrenheit(temp):
+    return (temp * 9/5) + 32
+
+fahrenheit = list(map(to_fahrenheit, celsius))
+print(fahrenheit) # [32.0, 50.0, 68.0, 86.0, 104.0]
+
+# sum()
+numbers = [5, 10, 15, 20]
+total = sum(numbers)
+print(total) # Result: 50
+# or
+numbers = [5, 10, 15, 20]
+total = sum(numbers, 10) # positional argument
+print(total) # 60
+
+# LAMBDA
 numbers = [1, 2, 3, 4, 5]
-even_numbers = [6, 8, 10]
 
-numbers.extend(even_numbers)
-print(numbers) # [1, 2, 3, 4, 5, 6, 8, 10]
-
-# INSERT
-numbers = [1, 2, 3, 4, 5]
-numbers.insert(2, 2.5)
-
-print(numbers) # [1, 2, 2.5, 3, 4, 5]
-
-# REMOVE
-numbers = [10, 20, 30, 40, 50, 50]
-numbers.remove(50)
-
-print(numbers) # [10, 20, 30, 40, 50]
-
-# POP
-numbers = [1, 2, 3, 4, 5]
-numbers.pop() # The number 5 is returned
-
-numbers = [1, 2, 3, 4, 5]
-numbers.pop(1) # The number 2 is returned
-
-# CLEAR
-numbers = [1, 2, 3, 4, 5]
-numbers.clear()
-
-print(numbers) # []
-
-# SORT() AND SORTED()
-numbers = [19, 2, 35, 1, 67, 41]
-numbers.sort()
-
-print(numbers) # [1, 2, 19, 35, 41, 67]
-
-numbers = [19, 2, 35, 1, 67, 41]
-sorted_numbers = sorted(numbers)
-
-print(numbers) # [19, 2, 35, 1, 67, 41]
-print(sorted_numbers) # [1, 2, 19, 35, 41, 67]
-
-# REVERSE()
-numbers = [6, 5, 4, 3, 2, 1]
-numbers.reverse()
-
-print(numbers) # [1, 2, 3, 4, 5, 6]
-
-# INDEX()
-programming_languages = ['Rust', 'Java', 'Python', 'C++']
-programming_languages.index('Java') # 1
-
-# DEL
-developer = ['Jane Doe', 23, 'Python Developer']
-del developer[1]
-
-# TUPLE
-# TUPLE DATA TYPE
-# Accessing Tuple Elements
-developer = ('Alice', 34, 'Rust Developer')
-developer[1] # 34
-
-numbers = (1, 2, 3, 4, 5)
-numbers[-2] # 4
-
-developer = 'Jessica'
-tuple(developer) # ('J', 'e', 's', 's', 'i', 'c', 'a')
-
-# 
-programming_languages = ('Python', 'Java', 'C++', 'Rust')
-
-'Rust' in programming_languages # True
-'JavaScript' in programming_languages # False
-
-# Unpacking Values From a Tuple
-developer = ('Alice', 34, 'Rust Developer')
-name, age, job = developer
-
-print(name) # 'Alice'
-print(age) # 34
-print(job) # 'Rust Developer'
-
-developer = ('Alice', 34, 'Rust Developer')
-name, *rest = developer
-
-print(name) # 'Alice'
-print(rest) # [34, 'Rust Developer']
-
-# Slicing Tuples
-desserts = ('cake', 'pie', 'cookies', 'ice cream')
-desserts[1:3] # ('pie', 'cookies')
-
-# TUPLE METHODS
-# COUNT()
-programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
-programming_languages.count('Rust') # 2
-
-programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
-programming_languages.count('JavaScript') # 0
-
-# index() 
-programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust')
-programming_languages.index('Java') # 1
-
-programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
-programming_languages.index('Python', 3) # 5 CAUSE ONLY START INDEX WAS DEFINED
-
-programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python', 'JavaScript', 'Python')
-programming_languages.index('Python', 2, 5) # 2 CAUSE START AND STOP INDEX WAS DEFINED
-
-# SORTED()
-numbers = (13, 2, 78, 3, 45, 67, 18, 7)
-sorted(numbers) # [2, 3, 7, 13, 18, 45, 67, 78]
-
-# KEY
-programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
-sorted(programming_languages, key=len)
-
-# Result
-# ['C++', 'Rust', 'Java', 'Rust', 'Python', 'Python']
-
-# REVERSE
-programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
-
-print(sorted(programming_languages, reverse=True))
-
-# Result
-# ['Rust', 'Rust', 'Python', 'Python', 'Java', 'C++']
-
-
-# LOOP
-# Using for Loops
-for char in 'code':
-    print(char)
-
-# Nesting for Loops
-categories = ['Fruit', 'Vegetable']
-foods = ['Apple', 'Carrot', 'Banana']
-
-for category in categories:
-    for food in foods:
-        print(category, food)
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)  # [2, 4]

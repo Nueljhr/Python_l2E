@@ -101,3 +101,11 @@ IDE stands for Integrated Development Environment and it has features including 
 An interactive shell is a program that lets you type commands one at a time and see the results.
 The Python interpreter is following what is known as the Read, Evaluate, Print, Loop cycle. Or REPL for short
 A tuple is a Python data type used to create an ordered sequence of values. Tuples can contain a mixed set of data types. Another way to create a tuple is by using the tuple() constructor.
+The break statement is used to stop the execution of a loop. The continue statement is used to skip the current iteration of a loop and move onto the next iteration. 
+The range() function is used to generate a sequence of integers. 
+# Definition: The zip() function is used to combine two or more iterables (like lists or tuples) into a single iterable of tuples. Each tuple contains elements from the input iterables that are at the same index. The resulting iterable stops when the shortest input iterable is exhausted. this takes two or more iterables and iterates over them parallelly by combining list into paired elements and returns a list encompassed inside a tuple or an iterator of tuples.
+Definition: List comprehensions are a concise way to create lists in Python. They consist of an expression followed by a for clause, and can include optional if clauses to filter the results. The syntax for a list comprehension is as follows: check freecode.py line 608
+The filter() function is used to select elements from an iterable that meet a specific condition. 
+map() function, which takes an iterable and applies a function to each of its elements.
+sum()function is used to get the sum from an iterable like a list or tuple.
+Lambda is an inline anonymous function best used when working with high order functions
