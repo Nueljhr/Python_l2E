@@ -102,3 +102,14 @@ numbers = list(range(2, 21, 2))
 
 # celsius = list(map(to_celsius, farhenheit))
 # print(celsius)
+
+import math as m
+
+m.sqrt(320)
+
+from math import sqrt as m
+m(86)
+from math import *
+print(sqrt(36))  # 6.0
+print(pow(5, 2)) # 25.0
+print(exp(1))    # 2.718281828459045

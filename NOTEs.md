@@ -109,3 +109,5 @@ The filter() function is used to select elements from an iterable that meet a sp
 map() function, which takes an iterable and applies a function to each of its elements.
 sum()function is used to get the sum from an iterable like a list or tuple.
 Lambda is an inline anonymous function best used when working with high order functions
+Dictionaries are built-in data structures that store collections of key-value pairs. You should use dictionaries when you need to associate values to unique keys. dict() is a dictionary constructor.
+Sets are one of Python's built-in data structures, Sets are mutable and unordered, sets don't store duplicate values, neither are they stored in any particular order therefore can't be access by keys and indices.The union operator | returns a new set with all the elements from both sets and The intersection operator & returns a new set with only the elements that the sets have in common and The difference operator - returns a new set with the elements of the first set that are not in the other sets. The symmetric difference operator ^ returns a new set with the elements that are either in the first or the second set, but not both. 

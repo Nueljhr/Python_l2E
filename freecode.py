@@ -614,39 +614,147 @@
 # print(result)
 
 # Using Conditional Expressions in List Comprehensions
-numbers = [1, 2, 3, 4, 5]
-result = [(num, 'Even') if num % 2 == 0 else (num, 'Odd') for num in numbers]
-print(result)
+# numbers = [1, 2, 3, 4, 5]
+# result = [(num, 'Even') if num % 2 == 0 else (num, 'Odd') for num in numbers]
+# print(result)
 
-# filter()
-words = ['tree', 'sky', 'mountain', 'river', 'cloud', 'sun']
+# # filter()
+# words = ['tree', 'sky', 'mountain', 'river', 'cloud', 'sun']
 
-def is_long_word(word):
-    return len(word) > 4
+# def is_long_word(word):
+#     return len(word) > 4
 
-long_words = list(filter(is_long_word, words))
-print(long_words) # ['mountain', 'river', 'cloud']
+# long_words = list(filter(is_long_word, words))
+# print(long_words) # ['mountain', 'river', 'cloud']
 
-# map()
-celsius = [0, 10, 20, 30, 40]
+# # map()
+# celsius = [0, 10, 20, 30, 40]
 
-def to_fahrenheit(temp):
-    return (temp * 9/5) + 32
+# def to_fahrenheit(temp):
+#     return (temp * 9/5) + 32
 
-fahrenheit = list(map(to_fahrenheit, celsius))
-print(fahrenheit) # [32.0, 50.0, 68.0, 86.0, 104.0]
+# fahrenheit = list(map(to_fahrenheit, celsius))
+# print(fahrenheit) # [32.0, 50.0, 68.0, 86.0, 104.0]
 
-# sum()
-numbers = [5, 10, 15, 20]
-total = sum(numbers)
-print(total) # Result: 50
-# or
-numbers = [5, 10, 15, 20]
-total = sum(numbers, 10) # positional argument
-print(total) # 60
+# # sum()
+# numbers = [5, 10, 15, 20]
+# total = sum(numbers)
+# print(total) # Result: 50
+# # or
+# numbers = [5, 10, 15, 20]
+# total = sum(numbers, 10) # positional argument
+# print(total) # 60
 
-# LAMBDA
-numbers = [1, 2, 3, 4, 5]
+# # LAMBDA
+# numbers = [1, 2, 3, 4, 5]
 
-even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
-print(even_numbers)  # [2, 4]
+# even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+# print(even_numbers)  # [2, 4]
+
+
+# # DICTIONARY
+# # dictionary = {
+# #     key1: value1,
+# #     key2: value2
+# # }
+
+# pizza = {
+#     'name': 'Margherita Pizza',
+#     'price': 8.9,
+#     'calories_per_slice': 250,
+#     'toppings': ['mozzarella', 'basil']
+# }
+# # dictionary = dict([("key1", "value1"), ("key2", "value2")])
+# pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
+
+# # DICTIONARY METHODS
+# # # GET()
+# # # dict.get(key, default): This returns the value for a specified key if it exists, otherwise it returns the default value. If no default value is provided, it returns None.
+# # dictionary.get(key, default)
+# pizza.get('toppings', []) # ['mozzarella', 'basil']
+
+# pizza.keys()
+# # dict_keys(['name', 'price', 'calories_per_slice', 'toppings'])
+# pizza.values()
+# # dict_values(['Margherita', 8.9, 250, ['mozzarella', 'basil']])
+# pizza.items()
+# # dict_items([('name', 'Margherita'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
+
+# # pizza.clear() 
+# # pizza.pop('name')  # Remove and return the value for the specified key
+# # pizza.popitem()  # Remove and return an arbitrary key-value pair
+# pizza.update({'name': 'Pepperoni Pizza'})  # Update the dictionary with new key-value pairs
+# print(pizza)  # {'name': 'Pepperoni Pizza', 'price': 8.9, 'calories_per_slice': 250, 'toppings': ['mozzarella', 'basil']}
+
+# Looping Over Values
+# products = {
+#     'Laptop': 990,
+#     'Smartphone': 600,
+#     'Tablet': 250,
+#     'Headphones': 70,
+# }
+# for price in products.values():
+#     for price_name in products.keys():
+#         print(f"{price_name}: ${price}")
+# for product in products.items():
+#     print(product)
+
+
+# Applying Changes to Every Value in a Key-Value Pair
+# products = {
+#     'Laptop': 990,
+#     'Smartphone': 600,
+#     'Tablet': 250,
+#     'Headphones': 70,
+# }
+
+# for product, price in products.items():
+#     products[product] = round(price * 0.8)
+
+# print(products)
+# ENUMERATE
+# for i, product in enumerate(products):
+#     print(f"{i}: {product}")
+# for c, product in enumerate(products.values()):
+#     print(f"{c}: {product}")
+# for x, product in enumerate(products.items()):
+#     print(f"{x}: {product}")
+# # Customizing the Starting Count
+# for index, product in enumerate(products.items(), 1):
+#     print(index, product)
+
+# SET
+# my_set = {1, 2, 3, 4, 5}
+# your_set = {2, 3, 4, 6}
+# set()
+# # set metheods
+# # .add()
+# my_set.add(6)
+
+# # .remove() or .discard()
+# my_set.remove(4)
+# my_set.discard(4)
+
+# # .clear()
+# my_set.clear()
+
+# # .issuperset() or .issubset()
+# print(your_set.issubset(my_set)) # False
+# print(my_set.issuperset(your_set))
+
+# # .isdisjoint()
+# print(my_set.isdisjoint(your_set)) # False
+
+# Using Set Operators
+# my_set | your_set # {1, 2, 3, 4, 5, 6} The union operator | 
+# my_set & your_set # {2, 3, 4} The intersection operator & 
+# my_set - your_set # {1, 5} The difference operator - 
+# my_set ^ your_set # {1, 5, 6} The symmetric difference operator ^
+
+# |= &= -= ^= automatically assigns the resulting set to the first set in the expression:
+
+import re
+
+greeting = "Hello there!"
+print(re.search('Hi', greeting)) # None
+print(re.search('Hello', greeting)) # <re.Match object; span=(0, 5), match='Hello'>
