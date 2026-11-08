@@ -30,6 +30,26 @@
 #     for j in range(1, 13): 
 #         result = i * j
 #         print(f'{i} x {j} = {result}')
+# for n in range(4, 5):
+#   for m in range(1, 13):
+#     result = n * m
+#     print(f'{n} * {m} = {result}')
+
+# for x in range(1, 13):
+#   print(f' 4 * {x} = {4 * x} ')
+
+# v = 1
+# while v < 13:
+#   print(f'4 * {v} = {4 * v}')
+#   v += 1
+
+# for i in range(1, 13):
+#   print(f'5 * {i} = {5 * i}')
+
+# lines = [f'5 * {c} = {5 * c}' for c in range(1, 13)]
+# print('\n'.join(lines))
+# times_table = [f'5 * {a} = {5 * a}' for a in range(1, 13)]
+# print('\n'.join(times_table))
 
 # #EXAMPLE
 # class Student:
